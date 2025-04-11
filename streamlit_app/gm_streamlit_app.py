@@ -11,11 +11,11 @@ st.write("Here is my model output from an analysis of NFL GMs. The data used for
 st.write("The model was trained using a XGBoost Classifier with the following hyperparameters and model performance metrics:")
 st.write("Hyperparameters: 'colsample_bytree': 0.8, 'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8")
 st.write("Model Performance: log_loss: 4.4444, roc_auc_ovr_macro: 0.7058, top_1_accuracy: 0.0271, top_5_accuracy: 0.1470")
-st.image("NFL-GM-Analysis/streamlit_app/feature_importance.png", caption="XGBoost Feature Importances")
+st.image("streamlit_app/feature_importance.png", caption="XGBoost Feature Importances")
 
 
 # Read in the PCA means table
-st.session_state.pca_means = pd.read_csv("NFL-GM-Analysis/streamlit_app/GM_PCA.csv")
+st.session_state.pca_means = pd.read_csv("streamlit_app/GM_PCA.csv")
 
 # Select target column as the GM label
 st.session_state.target_column = st.selectbox("Select the specific GM", st.session_state.pca_means.label.unique())
@@ -73,7 +73,7 @@ if st.button("Similarity Plot"):
     st.pyplot(plt)
 
 # Read in the averages table
-st.session_state.averages = pd.read_csv("NFL-GM-Analysis/streamlit_app/averages.csv")
+st.session_state.averages = pd.read_csv("streamlit_app/averages.csv")
 st.write("Below are some tables of outputs of the model by GM or prospect.")
 st.write("This first table is the averages of the features for each GM for all players drafted by that GM.")
 
@@ -81,14 +81,14 @@ st.dataframe(st.session_state.averages)
 
 
 # Read in the players and their top 5 GMs
-st.session_state.top_5_labels = pd.read_csv("NFL-GM-Analysis/streamlit_app/top_5_labels.csv")
+st.session_state.top_5_labels = pd.read_csv("streamlit_app/top_5_labels.csv")
 st.write("Next is a list of all the players in the sample by the five most likely GMs to draft them.")
 
 st.dataframe(st.session_state.top_5_labels)
 
 # Read in the players by if they had a specific GM within their top 5
 
-st.session_state.all_players_top5 = pd.read_csv("NFL-GM-Analysis/streamlit_app/all_players_top5.csv")
+st.session_state.all_players_top5 = pd.read_csv("streamlit_app/all_players_top5.csv")
 
 st.session_state.all_players_top5 = st.session_state.all_players_top5[st.session_state.all_players_top5['GM'] == st.session_state.target_column]
 
