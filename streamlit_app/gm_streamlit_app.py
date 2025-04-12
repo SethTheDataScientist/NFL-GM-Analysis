@@ -5,6 +5,7 @@ import os
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+st.set_page_config(layout="wide")
 st.session_state.target_column = None
 st.title("NFL GM Analysis")
 st.write("Here is my model output from an analysis of NFL GMs. The data used for training is the draft picks from 2003 to 2024 drafts along with features about the prospects including athletic testing, consensus big board rank, and NGS scores. The model was trained to predict the class label of the GM most likely to draft that player. The model was trained with recency weighting by an exponential function centered on the 2021 draft with an alpha of 0.5 (2024 = 4.48, 2021 = 1.0, and 2003 = 0.00012). Given all the biases inherent with the draft and any post-hoc analysis, the model is not very accurate but it is at least interesting.")
@@ -23,7 +24,7 @@ st.dataframe(st.session_state.current_prospects)
 st.session_state.pca_means = pd.read_csv("streamlit_app/GM_PCA.csv")
 
 # Select target column as the GM label
-st.session_state.target_column = st.selectbox("Select the specific GM", st.session_state.pca_means.label.unique())
+st.session_state.target_column = st.selectbox("Select the specific GM from either a team's most recent GM to make a draft pick or if that GM picked at least 50 draft picks.", st.session_state.pca_means.label.unique())
 
 st.write("The similarity plot is derived by the principal components of the average features for each GM. The closer the GMs are in the plot, the more similar their average features are.")
 st.write("The actual values are not relevant here, just the relative distances and locations near each other. The first two principal components explain 70% of the variance in the data.")
@@ -96,8 +97,6 @@ st.dataframe(st.session_state.top_5_labels)
 
 st.session_state.all_players_top5 = pd.read_csv("streamlit_app/all_players_top5.csv")
 
-st.session_state.all_players_top5 = st.session_state.all_players_top5[st.session_state.all_players_top5['GM'] == st.session_state.target_column]
-
-st.write("Finally is a list of the players by if they had the selected GM within their top 5")
+st.write("Finally is a list of the players by if they had a GM within their top 5 most likely outcomes.")
 
 st.dataframe(st.session_state.all_players_top5)
