@@ -23,7 +23,7 @@ st.image("streamlit_app/feature_importance.png", caption="XGBoost Feature Import
 # Read in the upcoming draft table
 st.session_state.current_prospects = pd.read_csv("streamlit_app/current_year.csv")
 st.write("Let's jump right to the good stuff and see the model output for the upcoming draft class. Below is the top 5 predictions and their probabilites for players in this upcoming draft sorted by most likely first label.")
-st.dataframe(st.session_state.current_prospects)
+st.dataframe(st.session_state.current_prospects, use_container_width=True)
 
 # Read in the PCA means table
 st.session_state.pca_means = pd.read_csv("streamlit_app/GM_PCA.csv")
@@ -89,14 +89,14 @@ st.session_state.averages = pd.read_csv("streamlit_app/averages.csv")
 st.write("Below are some tables of outputs of the model by GM or prospect.")
 st.write("This first table is the averages of the features for each GM for all players drafted by that GM.")
 
-st.dataframe(st.session_state.averages)
+st.dataframe(st.session_state.averages, use_container_width=True)
 
 
 # Read in the players and their top 5 GMs
 st.session_state.top_5_labels = pd.read_csv("streamlit_app/top_5_labels.csv")
 st.write("Next is a list of all the players in the sample by the five most likely GMs to draft them.")
 
-st.dataframe(st.session_state.top_5_labels)
+st.dataframe(st.session_state.top_5_labels, use_container_width=True)
 
 # Read in the players by if they had a specific GM within their top 5
 
@@ -104,6 +104,6 @@ st.session_state.all_players_top5 = pd.read_csv("streamlit_app/all_players_top5.
 
 st.write("Finally is a list of the players by if they had a GM within their top 5 most likely outcomes.")
 
-st.dataframe(st.session_state.all_players_top5)
+st.dataframe(st.session_state.all_players_top5, use_container_width=True)
 
 st.write('If you want to know more about me and my work: Check out my [Portfolio](https://sites.google.com/view/seth-lanza-portfolio/home), Get in touch at Seth.Lanza@gmail.com, Connect on [Linkedin](https://www.linkedin.com/in/sethlanza/), Check my [Twitter](https://x.com/SethDataScience), or Check out my [Github](https://github.com/SethTheDataScientist?tab=repositories)')
