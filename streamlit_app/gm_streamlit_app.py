@@ -7,12 +7,17 @@ import seaborn as sns
 
 st.session_state.target_column = None
 st.title("NFL GM Analysis")
-st.write("Here is my model output from an analysis of NFL GMs. The data used for training is the draft picks from 2003 to 2024 drafts along with features about the prospects including athletic testing, consensus big board rank, and NGS scores. The model was trained to predict the class label of the GM most likely to draft that player. Given all the biases inherent with the draft and any post-hoc analysis, the model is not very accurate but it is at least interesting.")
+st.write("Here is my model output from an analysis of NFL GMs. The data used for training is the draft picks from 2003 to 2024 drafts along with features about the prospects including athletic testing, consensus big board rank, and NGS scores. The model was trained to predict the class label of the GM most likely to draft that player. The model was trained with recency weighting by an exponential function centered on the 2021 draft with an alpha of 0.5 (2024 = 4.48, 2021 = 1.0, and 2003 = 0.00012). Given all the biases inherent with the draft and any post-hoc analysis, the model is not very accurate but it is at least interesting.")
 st.write("The model was trained using a XGBoost Classifier with the following hyperparameters and model performance metrics:")
-st.write("Hyperparameters: 'colsample_bytree': 0.8, 'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8")
-st.write("Model Performance: log_loss: 4.4444, roc_auc_ovr_macro: 0.7058, top_1_accuracy: 0.0271, top_5_accuracy: 0.1470")
+st.write("Hyperparameters: 'colsample_bytree': 1.0, 'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 200, 'subsample': 0.8")
+st.write("Model Performance: log_loss: 4.2819, roc_auc_ovr_macro: 0.3894, top_1_accuracy: 0.0279, top_5_accuracy: 0.1540")
 st.image("streamlit_app/feature_importance.png", caption="XGBoost Feature Importances")
 
+
+# Read in the upcoming draft table
+st.session_state.current_prospects = pd.read_csv("streamlit_app/current_year.csv")
+st.write("Let's jump right to the good stuff and see the model output for the upcoming draft class. Below is the top 5 predictions and their probabilites for players in this upcoming draft sorted by most likely first label.")
+st.dataframe(st.session_state.current_prospects)
 
 # Read in the PCA means table
 st.session_state.pca_means = pd.read_csv("streamlit_app/GM_PCA.csv")
@@ -71,6 +76,7 @@ if st.button("Similarity Plot"):
 
     # Show the plot
     st.pyplot(plt)
+
 
 # Read in the averages table
 st.session_state.averages = pd.read_csv("streamlit_app/averages.csv")

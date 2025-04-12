@@ -1,0 +1,326 @@
+player_name,nic_year,pro_pos,school,top1_class,top1_prob,top2_class,top2_prob,top3_class,top3_prob,top4_class,top4_prob,top5_class,top5_prob
+Armand Membou,2025,T,Missouri,PIT_Omar Khan,0.23162277,CIN_Mike Brown,0.052751385,KC_Brett Veach,0.04161945,CHI_Ryan Poles,0.021283623,SEA_John Schneider,0.018808687
+Corey Kiner,2025,RB,Cincinnati,LA_Les Snead,0.22731917,SF_John Lynch,0.06724009,SEA_John Schneider,0.030457517,JAX_Trent Baalke,0.026771558,BUF_Brandon Beane,0.024567777
+Marques Sigle,2025,S,Kansas State,GB_Brian Gutekunst,0.22506471,JAX_Trent Baalke,0.046804074,NYG_Joe Schoen,0.037984364,DAL_Jerry Jones,0.028486436,NO_Mickey Loomis,0.018157419
+Zeek Biggers,2025,DT,Georgia Tech,JAX_Trent Baalke,0.21930774,NE_Eliot Wolf,0.091496296,PHI_Howie Roseman,0.043321025,LA_Les Snead,0.027063502,GB_Brian Gutekunst,0.02447826
+Tahj Brooks,2025,RB,Texas Tech,GB_Brian Gutekunst,0.21307933,TB_Jason Licht,0.04728944,SF_John Lynch,0.043388996,BUF_Brandon Beane,0.03110326,SEA_John Schneider,0.016710019
+R.J. Mickens,2025,S,Clemson,NYG_Joe Schoen,0.20848167,NO_Mickey Loomis,0.032376654,CLE_Andrew Berry,0.029925425,GB_Brian Gutekunst,0.02553236,CIN_Mike Brown,0.023481494
+Jalen Royals,2025,WR,Utah State,SEA_John Schneider,0.19069566,GB_Brian Gutekunst,0.05902969,PHI_Howie Roseman,0.039107785,BAL_Eric DeCosta,0.03284335,CIN_Mike Brown,0.024391985
+Myles Hinton,2025,T,Michigan,BAL_Eric DeCosta,0.1737569,LA_Les Snead,0.055771433,JAX_Trent Baalke,0.035896644,HOU_Nick Caserio,0.03458651,CLE_Andrew Berry,0.026426628
+Sebastian Castro,2025,S,Iowa,LA_Les Snead,0.16226013,GB_Brian Gutekunst,0.058841903,BUF_Brandon Beane,0.03694101,TEN_Ran Carthon,0.034742806,SF_John Lynch,0.024211964
+Antwaun Powell-Ryland,2025,ED,Virginia Tech,BUF_Brandon Beane,0.16022012,NE_Eliot Wolf,0.055743195,TB_Jason Licht,0.04881086,LA_Les Snead,0.040498275,GB_Brian Gutekunst,0.03212088
+Devin Neal,2025,RB,Kansas,BUF_Brandon Beane,0.15666382,TB_Jason Licht,0.08910376,NE_Eliot Wolf,0.04646233,DET_Brad Holmes,0.043803122,NYG_Joe Schoen,0.042918336
+Warren Brinson,2025,DT,Georgia,PHI_Howie Roseman,0.15498737,CLE_Andrew Berry,0.05143095,NO_Mickey Loomis,0.0476655,CIN_Mike Brown,0.03328877,GB_Brian Gutekunst,0.025717143
+Ethan Downs,2025,ED,Oklahoma,LA_Les Snead,0.15401542,GB_Brian Gutekunst,0.036575474,NO_Mickey Loomis,0.036165398,ATL_Terry Fontenot,0.025815055,ARI_Monti Ossenfort,0.02519491
+Raheim Sanders,2025,RB,South Carolina,NYG_Joe Schoen,0.15247251,TB_Jason Licht,0.07509026,NO_Mickey Loomis,0.038133245,SEA_John Schneider,0.029922567,GB_Brian Gutekunst,0.02873777
+Jaylin Lane,2025,WR,Virginia Tech,NYG_Joe Schoen,0.13942719,IND_Chris Ballard,0.043661043,PHI_Howie Roseman,0.038893618,DAL_Jerry Jones,0.032848652,TB_Jason Licht,0.029780598
+Beaux Collins,2025,WR,Notre Dame,LA_Les Snead,0.13551232,GB_Brian Gutekunst,0.039307676,JAX_Trent Baalke,0.03647079,NYJ_Joe Douglas,0.035548385,BAL_Eric DeCosta,0.025933368
+Ozzy Trapilo,2025,T,Boston College,ARI_Monti Ossenfort,0.13498309,MIA_Chris Grier,0.044527028,BAL_Eric DeCosta,0.037228055,NO_Mickey Loomis,0.028689498,TB_Jason Licht,0.025116999
+Robert Longerbeam,2025,CB,Rutgers,NYG_Joe Schoen,0.13305418,JAX_Trent Baalke,0.0825477,MIN_Kwesi Adofo-Mensah,0.047852885,ARI_Monti Ossenfort,0.024079092,BAL_Eric DeCosta,0.024029227
+Will Campbell,2025,T,LSU,PIT_Omar Khan,0.12707272,CIN_Mike Brown,0.06180325,DET_Brad Holmes,0.045168664,CHI_Ryan Poles,0.02486631,GB_Brian Gutekunst,0.02329378
+Hayden Conner,2025,G,Texas,MIN_Kwesi Adofo-Mensah,0.12650605,BAL_Eric DeCosta,0.12429183,HOU_Nick Caserio,0.030185089,NE_Eliot Wolf,0.02677291,GB_Brian Gutekunst,0.022895586
+Jaydon Blue,2025,RB,Texas,TB_Jason Licht,0.12342232,SF_John Lynch,0.08862316,GB_Brian Gutekunst,0.081805736,SEA_John Schneider,0.038713563,LA_Les Snead,0.029569633
+Cobee Bryant,2025,CB,Kansas,SEA_John Schneider,0.12065599,CAR_Scott Fitterer,0.041085567,KC_Brett Veach,0.037355635,BAL_Eric DeCosta,0.032516014,TB_Jason Licht,0.028090952
+James Burnip,2025,P,Alabama,CHI_Ryan Poles,0.11827954,SF_John Lynch,0.0634937,BAL_Eric DeCosta,0.03812623,DAL_Jerry Jones,0.023321748,MIA_Chris Grier,0.020761
+Shemar Stewart,2025,ED,Texas A&M,JAX_Trent Baalke,0.11803308,PHI_Howie Roseman,0.08386268,IND_Chris Ballard,0.080271594,BUF_Brandon Beane,0.03664835,NYJ_Joe Douglas,0.031209765
+Bryson Nesbit,2025,TE,North Carolina,SF_John Lynch,0.117979944,CAR_Scott Fitterer,0.05221041,BUF_Brandon Beane,0.04218551,TEN_Ran Carthon,0.030393125,ATL_Terry Fontenot,0.025201045
+Chris Paul Jr.,2025,LB,Ole Miss,GB_Brian Gutekunst,0.11772122,BUF_Brandon Beane,0.0583315,CLE_Andrew Berry,0.03744806,NO_Mickey Loomis,0.03272538,ATL_Terry Fontenot,0.028665159
+Shemar Turner,2025,DT,Texas A&M,ATL_Terry Fontenot,0.11737575,CLE_Andrew Berry,0.065202065,HOU_Nick Caserio,0.036706183,KC_Brett Veach,0.02704034,GB_Brian Gutekunst,0.02397509
+Tate Ratledge,2025,G,Georgia,PIT_Omar Khan,0.11718265,KC_Brett Veach,0.06343925,DET_Brad Holmes,0.054271214,GB_Brian Gutekunst,0.03866299,TB_Jason Licht,0.036553837
+Collin Oliver,2025,ED,Oklahoma State,BUF_Brandon Beane,0.115523696,GB_Brian Gutekunst,0.033680383,CLE_Andrew Berry,0.03098977,NO_Mickey Loomis,0.030504266,ATL_Terry Fontenot,0.030117022
+DJ Giddens,2025,RB,Kansas State,GB_Brian Gutekunst,0.11436545,IND_Chris Ballard,0.035965074,SF_John Lynch,0.031495962,MIA_Chris Grier,0.028072748,TB_Jason Licht,0.026856663
+Darien Porter,2025,CB,Iowa State,IND_Chris Ballard,0.114339314,PHI_Howie Roseman,0.09253889,CIN_Mike Brown,0.032594487,KC_Brett Veach,0.025684569,JAX_Trent Baalke,0.02244146
+Seth McLaughlin,2025,C,Ohio State,GB_Brian Gutekunst,0.11375191,BAL_Eric DeCosta,0.038327053,TB_Jason Licht,0.032063764,CLE_Andrew Berry,0.031190202,SF_John Lynch,0.021515276
+Nick Emmanwori,2025,S,South Carolina,KC_Brett Veach,0.11198571,IND_Chris Ballard,0.07486128,MIA_Chris Grier,0.03382865,PHI_Howie Roseman,0.031851903,BAL_Eric DeCosta,0.027896166
+Karene Reid,2025,LB,Utah,JAX_Trent Baalke,0.1109108,SF_John Lynch,0.050591324,MIN_Kwesi Adofo-Mensah,0.047314323,BAL_Eric DeCosta,0.04697327,ATL_Terry Fontenot,0.038951438
+Connor Colby,2025,G,Iowa,PHI_Howie Roseman,0.110253334,GB_Brian Gutekunst,0.06993923,LA_Les Snead,0.04435551,BAL_Eric DeCosta,0.04375085,SF_John Lynch,0.025033852
+Jaxson Dart,2025,QB,Ole Miss,DEN_George Paton,0.1093529,GB_Brian Gutekunst,0.047056243,HOU_Nick Caserio,0.03886642,ATL_Terry Fontenot,0.027481366,CAR_Scott Fitterer,0.024599642
+Theo Wease Jr.,2025,WR,Missouri,SF_John Lynch,0.10894939,BUF_Brandon Beane,0.06533454,LA_Les Snead,0.03386208,GB_Brian Gutekunst,0.032261826,CAR_Scott Fitterer,0.030801708
+Daniel Jackson,2025,WR,Minnesota,LA_Les Snead,0.10816006,MIN_Kwesi Adofo-Mensah,0.065485366,SF_John Lynch,0.052340824,ATL_Terry Fontenot,0.030427927,CAR_Scott Fitterer,0.030245682
+Jake Briningstool,2025,TE,Clemson,TEN_Ran Carthon,0.10713173,ATL_Terry Fontenot,0.042122047,GB_Brian Gutekunst,0.032918822,TB_Jason Licht,0.031387746,MIA_Chris Grier,0.024910778
+Ricky White III,2025,WR,UNLV,BUF_Brandon Beane,0.1063552,SF_John Lynch,0.032511126,BAL_Eric DeCosta,0.032488465,DAL_Jerry Jones,0.03149638,TB_Jason Licht,0.030310579
+James Pearce Jr.,2025,ED,Tennessee,DEN_George Paton,0.10401077,PIT_Omar Khan,0.043146428,CAR_Scott Fitterer,0.036210585,GB_Brian Gutekunst,0.034590516,CHI_Ryan Poles,0.027930083
+Malachi Moore,2025,S,Alabama,GB_Brian Gutekunst,0.10209527,SF_John Lynch,0.07960249,TB_Jason Licht,0.031611525,LA_Les Snead,0.028962096,MIN_Kwesi Adofo-Mensah,0.028246809
+Robbie Ouzts,2025,TE,Alabama,LA_Les Snead,0.10188844,GB_Brian Gutekunst,0.041726466,NO_Mickey Loomis,0.032952443,ARI_Monti Ossenfort,0.032868505,ATL_Terry Fontenot,0.027613735
+CJ Dippre,2025,TE,Alabama,GB_Brian Gutekunst,0.10092575,PHI_Howie Roseman,0.058149047,BUF_Brandon Beane,0.04065771,DET_Brad Holmes,0.028156254,IND_Chris Ballard,0.027630424
+Ty Hamilton,2025,DT,Ohio State,CLE_Andrew Berry,0.10047104,GB_Brian Gutekunst,0.06151467,TEN_Ran Carthon,0.024365796,KC_Brett Veach,0.023205874,SF_John Lynch,0.02246461
+Jordan James,2025,RB,Oregon,GB_Brian Gutekunst,0.099002466,LA_Les Snead,0.079237275,TB_Jason Licht,0.036380198,CLE_Andrew Berry,0.027226469,DET_Brad Holmes,0.024427725
+Luke Lachey,2025,TE,Iowa,BAL_Eric DeCosta,0.09847369,GB_Brian Gutekunst,0.040364765,JAX_Trent Baalke,0.028514236,MIA_Chris Grier,0.026275003,SF_John Lynch,0.025563965
+Arian Smith,2025,WR,Georgia,NYG_Joe Schoen,0.09819327,JAX_Trent Baalke,0.04405873,PHI_Howie Roseman,0.031144425,GB_Brian Gutekunst,0.02410743,CIN_Mike Brown,0.023379842
+Damien Martinez,2025,RB,Miami (FL),GB_Brian Gutekunst,0.09811669,TB_Jason Licht,0.058882046,DET_Brad Holmes,0.051240258,NYJ_Joe Douglas,0.051193234,SEA_John Schneider,0.0282293
+CJ West,2025,DT,Indiana,GB_Brian Gutekunst,0.09702115,SEA_John Schneider,0.093229234,PHI_Howie Roseman,0.067946486,BUF_Brandon Beane,0.039077446,TB_Jason Licht,0.025835695
+Jaylen Reed,2025,S,Penn State,NO_Mickey Loomis,0.09684473,JAX_Trent Baalke,0.0777879,SEA_John Schneider,0.042122208,SF_John Lynch,0.033614427,CLE_Andrew Berry,0.025367
+Tory Horton,2025,WR,Colorado State,TB_Jason Licht,0.09632974,PHI_Howie Roseman,0.03759593,DEN_George Paton,0.035076316,SEA_John Schneider,0.032196656,NO_Mickey Loomis,0.030774834
+Ulysses Bentley IV,2025,RB,Ole Miss,LA_Les Snead,0.0959611,JAX_Trent Baalke,0.073760144,BUF_Brandon Beane,0.030224133,CLE_Andrew Berry,0.025422323,SF_John Lynch,0.024549125
+Power Echols,2025,LB,North Carolina,LA_Les Snead,0.0952902,SF_John Lynch,0.05279109,BUF_Brandon Beane,0.04835792,CAR_Scott Fitterer,0.03312576,NYG_Joe Schoen,0.032991193
+Jalen Travis,2025,T,Iowa State,JAX_Trent Baalke,0.094829135,PHI_Howie Roseman,0.050226938,ARI_Monti Ossenfort,0.04135957,BUF_Brandon Beane,0.039097127,CIN_Mike Brown,0.03367797
+Brashard Smith,2025,RB,SMU,TB_Jason Licht,0.094748594,GB_Brian Gutekunst,0.087555684,LA_Les Snead,0.041267604,NO_Mickey Loomis,0.031657748,BUF_Brandon Beane,0.030634278
+Jalen Rivers,2025,T,Miami (FL),ARI_Monti Ossenfort,0.09408164,KC_Brett Veach,0.035925124,SF_John Lynch,0.031178376,LAC_Joe Hortiz,0.030252468,JAX_Trent Baalke,0.029128088
+Terrance Ferguson,2025,TE,Oregon,BUF_Brandon Beane,0.093217,IND_Chris Ballard,0.03953956,NE_Eliot Wolf,0.03765984,TB_Jason Licht,0.033968892,GB_Brian Gutekunst,0.032312885
+Konata Mumpfield,2025,WR,Pittsburgh,BUF_Brandon Beane,0.093133025,DET_Brad Holmes,0.054157436,MIN_Kwesi Adofo-Mensah,0.048093412,JAX_Trent Baalke,0.045242686,LA_Les Snead,0.029241549
+Marcus Tate,2025,G,Clemson,MIN_Kwesi Adofo-Mensah,0.09161296,BAL_Eric DeCosta,0.066864744,GB_Brian Gutekunst,0.046638153,CLE_Andrew Berry,0.046078507,JAX_Trent Baalke,0.03797557
+Elijah Arroyo,2025,TE,Miami (FL),NYJ_Joe Douglas,0.09139216,DAL_Jerry Jones,0.031700514,IND_Chris Ballard,0.03090251,CAR_Scott Fitterer,0.030783858,TB_Jason Licht,0.028965143
+Oronde Gadsden II,2025,TE,Syracuse,TB_Jason Licht,0.09133934,DEN_George Paton,0.06128024,NYJ_Joe Douglas,0.038399085,NO_Mickey Loomis,0.035892732,DAL_Jerry Jones,0.03556869
+Carson Vinson,2025,T,Alabama A&M,PHI_Howie Roseman,0.091148466,MIA_Chris Grier,0.0793377,JAX_Trent Baalke,0.059185844,NO_Mickey Loomis,0.031292584,GB_Brian Gutekunst,0.026337806
+Bhayshul Tuten,2025,RB,Virginia Tech,IND_Chris Ballard,0.0900841,GB_Brian Gutekunst,0.06527069,ARI_Monti Ossenfort,0.036859628,NYG_Joe Schoen,0.035032976,CIN_Mike Brown,0.02661417
+Jordan Burch,2025,ED,Oregon,ATL_Terry Fontenot,0.08974631,CLE_Andrew Berry,0.036950983,TB_Jason Licht,0.03277712,HOU_Nick Caserio,0.028232897,KC_Brett Veach,0.027296653
+Drew Kendall,2025,C,Boston College,ARI_Monti Ossenfort,0.08910383,PHI_Howie Roseman,0.086447,GB_Brian Gutekunst,0.068750165,SF_John Lynch,0.030484864,NO_Mickey Loomis,0.02157069
+Eli Cox,2025,C,Kentucky,PHI_Howie Roseman,0.08906595,LA_Les Snead,0.050682668,GB_Brian Gutekunst,0.03832513,BAL_Eric DeCosta,0.027784994,PIT_Omar Khan,0.025580103
+Caleb Rogers,2025,G,Texas Tech,PHI_Howie Roseman,0.08887532,GB_Brian Gutekunst,0.06130055,PIT_Omar Khan,0.053483814,LA_Les Snead,0.041474413,JAX_Trent Baalke,0.025320388
+Hollin Pierce,2025,T,Rutgers,TEN_Ran Carthon,0.0883906,BAL_Eric DeCosta,0.06334626,NYJ_Joe Douglas,0.043823864,JAX_Trent Baalke,0.028641235,MIN_Kwesi Adofo-Mensah,0.028046861
+Elijah Simmons,2025,DT,Tennessee,SEA_John Schneider,0.0883661,BUF_Brandon Beane,0.058183633,HOU_Nick Caserio,0.051038947,KC_Brett Veach,0.045710795,NYG_Joe Schoen,0.03607133
+JJ Pegues,2025,DT,Ole Miss,SEA_John Schneider,0.08819643,JAX_Trent Baalke,0.04394604,LAC_Joe Hortiz,0.037077222,BUF_Brandon Beane,0.035451423,GB_Brian Gutekunst,0.035251223
+Joe Huber,2025,G,Wisconsin,GB_Brian Gutekunst,0.08803247,BAL_Eric DeCosta,0.06708074,LA_Les Snead,0.030435722,BUF_Brandon Beane,0.029460957,JAX_Trent Baalke,0.025615435
+Jay Higgins,2025,LB,Iowa,LA_Les Snead,0.087998755,SF_John Lynch,0.07681418,SEA_John Schneider,0.04822589,ATL_Terry Fontenot,0.040151823,BUF_Brandon Beane,0.030798221
+KeAndre Lambert-Smith,2025,WR,Auburn,NO_Mickey Loomis,0.0875068,CIN_Mike Brown,0.043968845,SEA_John Schneider,0.033870403,BAL_Eric DeCosta,0.032415744,GB_Brian Gutekunst,0.027410967
+Jalin Conyers,2025,TE,Texas Tech,BUF_Brandon Beane,0.0872282,GB_Brian Gutekunst,0.04373448,IND_Chris Ballard,0.040679708,SEA_John Schneider,0.03438151,ATL_Terry Fontenot,0.023754263
+Alfred Collins,2025,DT,Texas,TEN_Ran Carthon,0.086974435,CLE_Andrew Berry,0.039190657,KC_Brett Veach,0.03754717,BAL_Eric DeCosta,0.032616112,JAX_Trent Baalke,0.02741196
+Jaylin Noel,2025,WR,Iowa State,IND_Chris Ballard,0.086856455,ARI_Monti Ossenfort,0.03633013,GB_Brian Gutekunst,0.033737633,CIN_Mike Brown,0.031824857,MIA_Chris Grier,0.027983597
+Kevin Winston Jr.,2025,S,Penn State,CLE_Andrew Berry,0.08660477,NYJ_Joe Douglas,0.060847826,HOU_Nick Caserio,0.051518753,JAX_Trent Baalke,0.035853088,GB_Brian Gutekunst,0.028972836
+Tyler Baron,2025,ED,Miami (FL),BUF_Brandon Beane,0.0857364,LA_Les Snead,0.029608693,GB_Brian Gutekunst,0.028741634,NO_Mickey Loomis,0.025635611,TB_Jason Licht,0.024844944
+Shavon Revel Jr.,2025,CB,East Carolina,KC_Brett Veach,0.08545455,BAL_Eric DeCosta,0.06355046,PHI_Howie Roseman,0.054393955,DEN_George Paton,0.034837577,NYJ_Joe Douglas,0.027518423
+Jacolby George,2025,WR,Miami (FL),MIN_Kwesi Adofo-Mensah,0.084743984,SF_John Lynch,0.06994369,BAL_Eric DeCosta,0.037596058,SEA_John Schneider,0.032474454,ARI_Monti Ossenfort,0.028419038
+Ty Robinson,2025,DT,Nebraska,NO_Mickey Loomis,0.083644,GB_Brian Gutekunst,0.08209988,BAL_Eric DeCosta,0.061566267,IND_Chris Ballard,0.0373596,LA_Les Snead,0.027170228
+Kobe Hudson,2025,WR,UCF,BUF_Brandon Beane,0.082667425,KC_Brett Veach,0.027051246,PHI_Howie Roseman,0.025734406,GB_Brian Gutekunst,0.02418155,CLE_Andrew Berry,0.023797413
+Kyle McCord,2025,QB,Syracuse,ATL_Terry Fontenot,0.08234913,MIN_Kwesi Adofo-Mensah,0.056709122,SF_John Lynch,0.055466227,CAR_Scott Fitterer,0.04428696,GB_Brian Gutekunst,0.027515672
+Kain Medrano,2025,LB,UCLA,JAX_Trent Baalke,0.081047446,CAR_Scott Fitterer,0.07981409,DEN_George Paton,0.04537761,GB_Brian Gutekunst,0.041498207,IND_Chris Ballard,0.023262626
+Joshua Farmer,2025,DT,Florida State,SEA_John Schneider,0.08092013,ARI_Monti Ossenfort,0.071648404,JAX_Trent Baalke,0.050849494,CIN_Mike Brown,0.04634271,NYJ_Joe Douglas,0.025552383
+Miles Frazier,2025,G,LSU,NO_Mickey Loomis,0.08054879,ARI_Monti Ossenfort,0.058347505,GB_Brian Gutekunst,0.048040524,KC_Brett Veach,0.031783223,SEA_John Schneider,0.025010427
+LaJohntay Wester,2025,WR,Colorado,JAX_Trent Baalke,0.08023174,LA_Les Snead,0.051910058,MIN_Kwesi Adofo-Mensah,0.048004214,DEN_George Paton,0.037425764,CLE_Andrew Berry,0.03523892
+Cody Simon,2025,LB,Ohio State,PHI_Howie Roseman,0.08004866,NO_Mickey Loomis,0.07403799,GB_Brian Gutekunst,0.06734278,SF_John Lynch,0.03708923,NYJ_Joe Douglas,0.027825613
+Riley Leonard,2025,QB,Notre Dame,GB_Brian Gutekunst,0.07991125,NYJ_Joe Douglas,0.04628172,SF_John Lynch,0.039809294,PHI_Howie Roseman,0.03173848,BAL_Eric DeCosta,0.023158077
+Montrell Johnson Jr.,2025,RB,Florida,NO_Mickey Loomis,0.07982129,LA_Les Snead,0.07296012,JAX_Trent Baalke,0.04324546,MIN_Kwesi Adofo-Mensah,0.03973007,SF_John Lynch,0.034126803
+Jackson Hawes,2025,TE,Georgia Tech,GB_Brian Gutekunst,0.079616554,BAL_Eric DeCosta,0.039596763,PIT_Omar Khan,0.025803573,KC_Brett Veach,0.023980813,NO_Mickey Loomis,0.023801425
+Cam Ward,2025,QB,Miami (FL),DET_Brad Holmes,0.07931553,CAR_Scott Fitterer,0.037800856,GB_Brian Gutekunst,0.034470297,ATL_Terry Fontenot,0.032405384,PHI_Howie Roseman,0.025325442
+Jay Toia,2025,DT,UCLA,MIN_Kwesi Adofo-Mensah,0.07913752,TEN_Ran Carthon,0.07055586,HOU_Nick Caserio,0.06427533,BAL_Eric DeCosta,0.03760871,CLE_Andrew Berry,0.02499259
+Josh Simmons,2025,T,Ohio State,CLE_Andrew Berry,0.0791156,TB_Jason Licht,0.033039562,HOU_Nick Caserio,0.029057963,LAC_Joe Hortiz,0.025113411,BAL_Eric DeCosta,0.024051346
+Pat Bryant,2025,WR,Illinois,GB_Brian Gutekunst,0.079055876,BUF_Brandon Beane,0.06899015,NE_Eliot Wolf,0.03957867,KC_Brett Veach,0.02447011,ARI_Monti Ossenfort,0.022607246
+Teddye Buchanan,2025,LB,California,BUF_Brandon Beane,0.07889999,LA_Les Snead,0.071396485,IND_Chris Ballard,0.053035002,GB_Brian Gutekunst,0.044855945,PHI_Howie Roseman,0.03587419
+Colston Loveland,2025,TE,Michigan,HOU_Nick Caserio,0.078533135,DEN_George Paton,0.06733431,BAL_Eric DeCosta,0.054827616,MIN_Kwesi Adofo-Mensah,0.03398975,NYJ_Joe Douglas,0.031319004
+Brady Cook,2025,QB,Missouri,PHI_Howie Roseman,0.07814062,LAC_Joe Hortiz,0.04808761,MIA_Chris Grier,0.04224981,IND_Chris Ballard,0.032754675,GB_Brian Gutekunst,0.030870652
+Jack Nelson,2025,T,Wisconsin,CLE_Andrew Berry,0.07809937,NO_Mickey Loomis,0.07736682,BAL_Eric DeCosta,0.058320906,NYJ_Joe Douglas,0.04265355,PHI_Howie Roseman,0.039049547
+Elijah Roberts,2025,ED,SMU,CIN_Mike Brown,0.077988386,ATL_Terry Fontenot,0.07331269,SEA_John Schneider,0.03963791,CLE_Andrew Berry,0.035685945,NO_Mickey Loomis,0.02774767
+Isaiah Bond,2025,WR,Texas,SEA_John Schneider,0.077922545,ARI_Monti Ossenfort,0.053010084,BAL_Eric DeCosta,0.049170364,PHI_Howie Roseman,0.035851356,HOU_Nick Caserio,0.032989934
+Tyreem Powell,2025,LB,Rutgers,DEN_George Paton,0.07743065,HOU_Nick Caserio,0.046334732,JAX_Trent Baalke,0.038203858,LA_Les Snead,0.03482676,NYJ_Joe Douglas,0.03357562
+Rylie Mills,2025,DT,Notre Dame,GB_Brian Gutekunst,0.077338465,TB_Jason Licht,0.04666117,ATL_Terry Fontenot,0.036724195,NYJ_Joe Douglas,0.034454558,BAL_Eric DeCosta,0.03325997
+Logan Brown,2025,T,Kansas,ARI_Monti Ossenfort,0.07710256,GB_Brian Gutekunst,0.047981534,MIA_Chris Grier,0.042837624,BAL_Eric DeCosta,0.02926915,NO_Mickey Loomis,0.02792762
+Danny Stutsman,2025,LB,Oklahoma,NO_Mickey Loomis,0.07661359,GB_Brian Gutekunst,0.06421634,SEA_John Schneider,0.047697622,BUF_Brandon Beane,0.039086547,TB_Jason Licht,0.036620937
+Kaleb Johnson,2025,RB,Iowa,TB_Jason Licht,0.07572352,HOU_Nick Caserio,0.0714183,SEA_John Schneider,0.06452415,BUF_Brandon Beane,0.036270734,CAR_Scott Fitterer,0.02363902
+Anthony Belton,2025,T,NC State,KC_Brett Veach,0.07569631,TEN_Ran Carthon,0.059614062,MIA_Chris Grier,0.046232928,CLE_Andrew Berry,0.033715796,HOU_Nick Caserio,0.02924878
+Barryn Sorrell,2025,ED,Texas,PHI_Howie Roseman,0.07559502,ARI_Monti Ossenfort,0.06480065,NO_Mickey Loomis,0.06256309,GB_Brian Gutekunst,0.053719547,LA_Les Snead,0.046551563
+Branson Taylor,2025,T,Pittsburgh,MIN_Kwesi Adofo-Mensah,0.07530823,BAL_Eric DeCosta,0.06064909,GB_Brian Gutekunst,0.041047405,CLE_Andrew Berry,0.03837531,NYJ_Joe Douglas,0.031199766
+Luther Burden III,2025,WR,Missouri,SEA_John Schneider,0.074388996,BAL_Eric DeCosta,0.06187971,NYG_Joe Schoen,0.036668357,CHI_Ryan Poles,0.034319654,KC_Brett Veach,0.025020912
+Andrew Mukuba,2025,S,Texas,SEA_John Schneider,0.07400711,TB_Jason Licht,0.05736997,HOU_Nick Caserio,0.040792666,GB_Brian Gutekunst,0.0391997,DEN_George Paton,0.027046265
+Kyle Kennard,2025,ED,South Carolina,ATL_Terry Fontenot,0.07399345,ARI_Monti Ossenfort,0.04382286,SEA_John Schneider,0.032486256,HOU_Nick Caserio,0.0284562,CLE_Andrew Berry,0.022437073
+Marcus Yarns,2025,RB,Delaware,TB_Jason Licht,0.07376633,NYG_Joe Schoen,0.042422216,DAL_Jerry Jones,0.040900446,BUF_Brandon Beane,0.027199017,CIN_Mike Brown,0.026444344
+Max Brosmer,2025,QB,Minnesota,MIN_Kwesi Adofo-Mensah,0.073659986,LA_Les Snead,0.041684065,SF_John Lynch,0.03702431,ATL_Terry Fontenot,0.031543165,JAX_Trent Baalke,0.02707568
+Omarr Norman-Lott,2025,DT,Tennessee,CLE_Andrew Berry,0.073002905,NO_Mickey Loomis,0.053134225,ATL_Terry Fontenot,0.043172654,CIN_Mike Brown,0.033984456,GB_Brian Gutekunst,0.02999214
+Craig Woodson,2025,S,California,NO_Mickey Loomis,0.07266732,CLE_Andrew Berry,0.05811954,JAX_Trent Baalke,0.039329153,MIN_Kwesi Adofo-Mensah,0.035691164,GB_Brian Gutekunst,0.035510432
+Princely Umanmielen,2025,ED,Ole Miss,DEN_George Paton,0.07240362,BUF_Brandon Beane,0.033360254,NE_Eliot Wolf,0.03190685,LA_Les Snead,0.030992499,BAL_Eric DeCosta,0.02602797
+Joshua Gray,2025,G,Oregon State,GB_Brian Gutekunst,0.07228748,TB_Jason Licht,0.03785684,LA_Les Snead,0.031584553,CIN_Mike Brown,0.030758932,DAL_Jerry Jones,0.028607039
+Tyler Booker,2025,G,Alabama,NYG_Joe Schoen,0.07227976,BUF_Brandon Beane,0.07210289,CHI_Ryan Poles,0.05129704,BAL_Eric DeCosta,0.021901492,ARI_Monti Ossenfort,0.020740883
+Isaac TeSlaa,2025,WR,Arkansas,WAS_Adam Peters,0.072080754,PHI_Howie Roseman,0.050073218,MIA_Chris Grier,0.03386545,NYJ_Joe Douglas,0.0285762,CHI_Ryan Poles,0.026959399
+Jared Harrison-Hunte,2025,DT,SMU,ATL_Terry Fontenot,0.07193673,CIN_Mike Brown,0.04757001,SEA_John Schneider,0.039564304,GB_Brian Gutekunst,0.033156693,PHI_Howie Roseman,0.031623658
+Jamaree Caldwell,2025,DT,Oregon,SEA_John Schneider,0.071650796,KC_Brett Veach,0.061190102,SF_John Lynch,0.033432316,BUF_Brandon Beane,0.029995687,TEN_Ran Carthon,0.028884435
+Denzel Burke,2025,CB,Ohio State,SEA_John Schneider,0.07058475,CLE_Andrew Berry,0.039314397,BAL_Eric DeCosta,0.03377177,KC_Brett Veach,0.02851134,LA_Les Snead,0.024192313
+Travis Hunter,2025,CB,Colorado,NYG_Joe Schoen,0.07046023,ARI_Monti Ossenfort,0.057106294,BAL_Eric DeCosta,0.05273581,HOU_Nick Caserio,0.032682046,DAL_Jerry Jones,0.029898759
+Tommi Hill,2025,CB,Nebraska,TB_Jason Licht,0.07041078,SF_John Lynch,0.03873251,NYJ_Joe Douglas,0.03835545,PHI_Howie Roseman,0.031097334,KC_Brett Veach,0.029683907
+Mykel Williams,2025,ED,Georgia,HOU_Nick Caserio,0.06998357,NYJ_Joe Douglas,0.054901693,CLE_Andrew Berry,0.036118735,NO_Mickey Loomis,0.02852877,LAC_Joe Hortiz,0.026347136
+Alijah Clark,2025,S,Syracuse,JAX_Trent Baalke,0.06991339,KC_Brett Veach,0.04759178,BAL_Eric DeCosta,0.037287805,SEA_John Schneider,0.03149133,CHI_Ryan Poles,0.028043933
+Wyatt Milum,2025,T,West Virginia,MIA_Chris Grier,0.06912896,BAL_Eric DeCosta,0.053159803,GB_Brian Gutekunst,0.044091374,BUF_Brandon Beane,0.031321608,NYG_Joe Schoen,0.023868151
+Josh Kelly,2025,WR,Texas Tech,BUF_Brandon Beane,0.06899573,SF_John Lynch,0.04412378,MIA_Chris Grier,0.036555193,LA_Les Snead,0.03553909,SEA_John Schneider,0.034233645
+Nohl Williams,2025,CB,California,SF_John Lynch,0.068823434,SEA_John Schneider,0.06257844,GB_Brian Gutekunst,0.055424124,CIN_Mike Brown,0.030879656,NO_Mickey Loomis,0.025103724
+Dont'e Thornton Jr.,2025,WR,Tennessee,PIT_Omar Khan,0.0688115,GB_Brian Gutekunst,0.06133892,JAX_Trent Baalke,0.052439995,DEN_George Paton,0.052371074,PHI_Howie Roseman,0.04445406
+Isaiah Neyor,2025,WR,Nebraska,PHI_Howie Roseman,0.068603545,IND_Chris Ballard,0.066296905,NYJ_Joe Douglas,0.046955954,DAL_Jerry Jones,0.031568546,JAX_Trent Baalke,0.026316382
+Dylan Fairchild,2025,G,Georgia,TB_Jason Licht,0.068391524,NYJ_Joe Douglas,0.057507012,DAL_Jerry Jones,0.048418336,CIN_Mike Brown,0.03287624,BAL_Eric DeCosta,0.023895124
+Jackson Slater,2025,G,Sacramento State,SEA_John Schneider,0.06812944,CIN_Mike Brown,0.03914831,TB_Jason Licht,0.037237808,GB_Brian Gutekunst,0.03321473,DAL_Jerry Jones,0.0329276
+Clay Webb,2025,G,Jacksonville State,DAL_Jerry Jones,0.06793849,BUF_Brandon Beane,0.0604661,GB_Brian Gutekunst,0.053490378,LA_Les Snead,0.03650651,SEA_John Schneider,0.03385256
+Marcus Mbow,2025,T,Purdue,GB_Brian Gutekunst,0.06713151,BAL_Eric DeCosta,0.052887566,CLE_Andrew Berry,0.046748508,HOU_Nick Caserio,0.029528093,DEN_George Paton,0.02773298
+Bru McCoy,2025,WR,Tennessee,NYJ_Joe Douglas,0.06629681,DEN_George Paton,0.050508585,GB_Brian Gutekunst,0.038291782,SF_John Lynch,0.03595167,BAL_Eric DeCosta,0.03593309
+Jackson Woodard,2025,LB,UNLV,NO_Mickey Loomis,0.065765195,GB_Brian Gutekunst,0.05785501,PHI_Howie Roseman,0.047605712,NYJ_Joe Douglas,0.029918905,ATL_Terry Fontenot,0.02991533
+Ajani Cornelius,2025,T,Oregon,CLE_Andrew Berry,0.065693244,NYJ_Joe Douglas,0.03162501,GB_Brian Gutekunst,0.02685147,BAL_Eric DeCosta,0.026671866,NO_Mickey Loomis,0.02354387
+BJ Adams,2025,CB,UCF,BUF_Brandon Beane,0.06566283,SF_John Lynch,0.044290237,KC_Brett Veach,0.041111752,CHI_Ryan Poles,0.035744518,JAX_Trent Baalke,0.033173013
+Jonas Sanker,2025,S,Virginia,NO_Mickey Loomis,0.06565998,CLE_Andrew Berry,0.06163809,NYG_Joe Schoen,0.05031092,MIA_Chris Grier,0.03935201,GB_Brian Gutekunst,0.032236356
+Jayden Higgins,2025,WR,Iowa State,PIT_Omar Khan,0.06518054,DEN_George Paton,0.061904427,IND_Chris Ballard,0.046469186,JAX_Trent Baalke,0.030590368,TB_Jason Licht,0.03036242
+Emeka Egbuka,2025,WR,Ohio State,BAL_Eric DeCosta,0.06517114,DAL_Jerry Jones,0.05322947,TB_Jason Licht,0.036564723,SEA_John Schneider,0.03438342,MIA_Chris Grier,0.028019853
+Jonah Monheim,2025,C,USC,GB_Brian Gutekunst,0.06463624,BAL_Eric DeCosta,0.038690038,SF_John Lynch,0.03672297,CLE_Andrew Berry,0.035891216,NO_Mickey Loomis,0.030636042
+Elic Ayomanor,2025,WR,Stanford,IND_Chris Ballard,0.06449885,CHI_Ryan Poles,0.03479002,CIN_Mike Brown,0.031047702,NO_Mickey Loomis,0.029806385,CAR_Scott Fitterer,0.025811817
+LeQuint Allen,2025,RB,Syracuse,JAX_Trent Baalke,0.06447755,GB_Brian Gutekunst,0.03048472,BAL_Eric DeCosta,0.029524324,CLE_Andrew Berry,0.029050617,SF_John Lynch,0.027009444
+Grey Zabel,2025,T,North Dakota State,DET_Brad Holmes,0.06437705,NYJ_Joe Douglas,0.052461922,IND_Chris Ballard,0.033936623,KC_Brett Veach,0.031410582,CIN_Mike Brown,0.026722392
+Jared Ivey,2025,ED,Ole Miss,NYJ_Joe Douglas,0.06436777,CLE_Andrew Berry,0.036932316,IND_Chris Ballard,0.035340205,ATL_Terry Fontenot,0.033546343,BAL_Eric DeCosta,0.031732507
+Andrew Armstrong,2025,WR,Arkansas,GB_Brian Gutekunst,0.064307235,DEN_George Paton,0.03865151,CLE_Andrew Berry,0.03442517,DAL_Jerry Jones,0.030698376,IND_Chris Ballard,0.026602585
+Mike Green,2025,ED,Marshall,NYJ_Joe Douglas,0.06387481,ATL_Terry Fontenot,0.042681783,CAR_Scott Fitterer,0.040894147,CIN_Mike Brown,0.035493933,GB_Brian Gutekunst,0.03379931
+Maxen Hook,2025,S,Toledo,BUF_Brandon Beane,0.06368435,JAX_Trent Baalke,0.040932663,CLE_Andrew Berry,0.0388685,SEA_John Schneider,0.027474796,MIN_Kwesi Adofo-Mensah,0.023868963
+Tyler Warren,2025,TE,Penn State,DET_Brad Holmes,0.06353376,NYJ_Joe Douglas,0.043003175,ATL_Terry Fontenot,0.033884168,IND_Chris Ballard,0.03379369,GB_Brian Gutekunst,0.032854494
+Trey Amos,2025,CB,Ole Miss,MIA_Chris Grier,0.06306707,KC_Brett Veach,0.04686476,CAR_Scott Fitterer,0.032658163,BAL_Eric DeCosta,0.025273329,CLE_Andrew Berry,0.025206214
+Jimmy Horn Jr.,2025,WR,Colorado,JAX_Trent Baalke,0.06270919,MIN_Kwesi Adofo-Mensah,0.052591503,LA_Les Snead,0.03558348,NYG_Joe Schoen,0.029605014,CAR_Scott Fitterer,0.027179167
+Payton Page,2025,DT,Clemson,LA_Les Snead,0.06270546,GB_Brian Gutekunst,0.049499273,JAX_Trent Baalke,0.040237702,CIN_Mike Brown,0.033774827,ATL_Terry Fontenot,0.03347656
+Matthew Golden,2025,WR,Texas,GB_Brian Gutekunst,0.06256385,ARI_Monti Ossenfort,0.039439235,SEA_John Schneider,0.03496504,LA_Les Snead,0.03249617,BAL_Eric DeCosta,0.02883413
+Mitchell Evans,2025,TE,Notre Dame,GB_Brian Gutekunst,0.062492654,NO_Mickey Loomis,0.061497107,TEN_Ran Carthon,0.03711002,ATL_Terry Fontenot,0.030193608,TB_Jason Licht,0.028850926
+Jah Joyner,2025,ED,Minnesota,BAL_Eric DeCosta,0.06233035,LA_Les Snead,0.038172033,JAX_Trent Baalke,0.03410557,GB_Brian Gutekunst,0.031390842,HOU_Nick Caserio,0.026151758
+Landon Jackson,2025,ED,Arkansas,IND_Chris Ballard,0.062171556,JAX_Trent Baalke,0.060346194,BUF_Brandon Beane,0.05922189,GB_Brian Gutekunst,0.037163984,KC_Brett Veach,0.035441082
+Quincy Riley,2025,CB,Louisville,SEA_John Schneider,0.062147375,TB_Jason Licht,0.05114159,SF_John Lynch,0.046423547,BAL_Eric DeCosta,0.032214906,GB_Brian Gutekunst,0.030914336
+TreVeyon Henderson,2025,RB,Ohio State,MIA_Chris Grier,0.062125195,KC_Brett Veach,0.042419996,CIN_Mike Brown,0.033795256,NYG_Joe Schoen,0.028645227,PIT_Omar Khan,0.026846897
+Tyler Batty,2025,ED,Brigham Young,LA_Les Snead,0.06207181,BAL_Eric DeCosta,0.060917795,NO_Mickey Loomis,0.059880354,PHI_Howie Roseman,0.032518793,IND_Chris Ballard,0.03144064
+Que Robinson,2025,ED,Alabama,HOU_Nick Caserio,0.06182153,CAR_Scott Fitterer,0.053830136,BAL_Eric DeCosta,0.043934252,DEN_George Paton,0.031202193,SF_John Lynch,0.028042555
+Dante Trader Jr.,2025,S,Maryland,SF_John Lynch,0.06135539,CLE_Andrew Berry,0.05426189,LA_Les Snead,0.040332127,MIA_Chris Grier,0.036500946,MIN_Kwesi Adofo-Mensah,0.031612135
+Sean Martin,2025,ED,West Virginia,JAX_Trent Baalke,0.06130555,LA_Les Snead,0.05971103,ARI_Monti Ossenfort,0.034435183,ATL_Terry Fontenot,0.031940605,BAL_Eric DeCosta,0.027416626
+Will Howard,2025,QB,Ohio State,DEN_George Paton,0.06111991,GB_Brian Gutekunst,0.060432363,TB_Jason Licht,0.032855995,NO_Mickey Loomis,0.032561142,ATL_Terry Fontenot,0.03252811
+Yahya Black,2025,DT,Iowa,BAL_Eric DeCosta,0.061007198,CHI_Ryan Poles,0.06077505,NYG_Joe Schoen,0.03433411,JAX_Trent Baalke,0.03220809,KC_Brett Veach,0.032110557
+Nick Nash,2025,WR,San Jose State,GB_Brian Gutekunst,0.061006654,BUF_Brandon Beane,0.03373734,CIN_Mike Brown,0.030979406,SEA_John Schneider,0.029649215,KC_Brett Veach,0.023886891
+Gunnar Helm,2025,TE,Texas,CHI_Ryan Poles,0.06099244,DEN_George Paton,0.03646356,BAL_Eric DeCosta,0.036343344,GB_Brian Gutekunst,0.027415292,ATL_Terry Fontenot,0.02553427
+Eugene Asante,2025,LB,Auburn,SF_John Lynch,0.06096202,GB_Brian Gutekunst,0.04227348,SEA_John Schneider,0.03983689,TB_Jason Licht,0.034184463,PHI_Howie Roseman,0.02817059
+Elijhah Badger,2025,WR,Florida,KC_Brett Veach,0.06044488,TB_Jason Licht,0.047590844,GB_Brian Gutekunst,0.040055543,CLE_Andrew Berry,0.03354971,DEN_George Paton,0.027169932
+Bilhal Kone,2025,CB,Western Michigan,JAX_Trent Baalke,0.060375698,KC_Brett Veach,0.04869202,BAL_Eric DeCosta,0.03897052,MIN_Kwesi Adofo-Mensah,0.03267609,BUF_Brandon Beane,0.029930366
+Sai'vion Jones,2025,ED,LSU,CLE_Andrew Berry,0.060232844,NYJ_Joe Douglas,0.040157396,ATL_Terry Fontenot,0.036655318,TEN_Ran Carthon,0.03573662,BAL_Eric DeCosta,0.035368282
+Phil Mafah,2025,RB,Clemson,LA_Les Snead,0.059965428,SF_John Lynch,0.0508775,JAX_Trent Baalke,0.031005163,NYJ_Joe Douglas,0.029829053,GB_Brian Gutekunst,0.026308415
+Donovan Jackson,2025,G,Ohio State,KC_Brett Veach,0.059764717,NYJ_Joe Douglas,0.047261473,CLE_Andrew Berry,0.0422196,ATL_Terry Fontenot,0.02721649,HOU_Nick Caserio,0.021974701
+DeAndre Jules,2025,DT,South Carolina,HOU_Nick Caserio,0.059720114,MIN_Kwesi Adofo-Mensah,0.0574866,LA_Les Snead,0.05368299,CLE_Andrew Berry,0.04473945,JAX_Trent Baalke,0.03523931
+Cody Lindenberg,2025,LB,Minnesota,GB_Brian Gutekunst,0.059706055,HOU_Nick Caserio,0.050052613,DEN_George Paton,0.041291997,NYJ_Joe Douglas,0.035497278,CLE_Andrew Berry,0.032643545
+Jack Kiser,2025,LB,Notre Dame,ATL_Terry Fontenot,0.059380405,SF_John Lynch,0.050235335,GB_Brian Gutekunst,0.04430882,CLE_Andrew Berry,0.036433563,MIN_Kwesi Adofo-Mensah,0.030317247
+Tyrion Ingram-Dawkins,2025,DT,Georgia,PHI_Howie Roseman,0.059238866,GB_Brian Gutekunst,0.05642776,LAC_Joe Hortiz,0.03397191,BUF_Brandon Beane,0.028250348,CLE_Andrew Berry,0.023961393
+Demetrius Knight Jr.,2025,LB,South Carolina,NO_Mickey Loomis,0.058965936,SEA_John Schneider,0.045949552,GB_Brian Gutekunst,0.039807547,ATL_Terry Fontenot,0.038476255,LAC_Joe Hortiz,0.031390242
+Jalen Milroe,2025,QB,Alabama,NYJ_Joe Douglas,0.058614265,TB_Jason Licht,0.0527646,GB_Brian Gutekunst,0.049441673,DAL_Jerry Jones,0.038755257,SEA_John Schneider,0.033639196
+Brandon Crenshaw-Dickson,2025,T,Florida,NYG_Joe Schoen,0.058413677,CHI_Ryan Poles,0.058225326,BUF_Brandon Beane,0.052696962,BAL_Eric DeCosta,0.05105417,MIA_Chris Grier,0.038221337
+Jared Wilson,2025,C,Georgia,NE_Eliot Wolf,0.05835726,CIN_Mike Brown,0.054376822,GB_Brian Gutekunst,0.050191037,PIT_Omar Khan,0.050137088,BAL_Eric DeCosta,0.026483867
+Jeremy Crawshaw,2025,P,Florida,HOU_Nick Caserio,0.058310084,DAL_Jerry Jones,0.04364465,CHI_Ryan Poles,0.036818795,SF_John Lynch,0.0335635,BAL_Eric DeCosta,0.02967584
+Ollie Gordon II,2025,RB,Oklahoma State,SEA_John Schneider,0.058210377,TB_Jason Licht,0.052867677,BUF_Brandon Beane,0.052021127,GB_Brian Gutekunst,0.034666065,NO_Mickey Loomis,0.03064839
+Jordan Watkins,2025,WR,Ole Miss,PHI_Howie Roseman,0.058135472,NYG_Joe Schoen,0.042169657,SF_John Lynch,0.03568955,JAX_Trent Baalke,0.034897514,CLE_Andrew Berry,0.028981954
+Da'Quan Felton,2025,WR,Virginia Tech,GB_Brian Gutekunst,0.058069374,BAL_Eric DeCosta,0.041880134,NO_Mickey Loomis,0.035017103,DEN_George Paton,0.031708997,CHI_Ryan Poles,0.027087454
+Jahdae Barron,2025,CB,Texas,IND_Chris Ballard,0.057939053,ARI_Monti Ossenfort,0.043795493,CIN_Mike Brown,0.03125696,GB_Brian Gutekunst,0.029378586,NYG_Joe Schoen,0.02767428
+Savion Williams,2025,WR,TCU,GB_Brian Gutekunst,0.057815224,HOU_Nick Caserio,0.04130498,CHI_Ryan Poles,0.039454307,BAL_Eric DeCosta,0.0372304,SEA_John Schneider,0.034391664
+Jack Bech,2025,WR,TCU,NO_Mickey Loomis,0.057810806,NYJ_Joe Douglas,0.04593756,TB_Jason Licht,0.023938943,GB_Brian Gutekunst,0.023009734,CIN_Mike Brown,0.022568874
+Jonah Savaiinaea,2025,T,Arizona,PHI_Howie Roseman,0.057589144,KC_Brett Veach,0.038876377,HOU_Nick Caserio,0.036356013,CHI_Ryan Poles,0.035523213,BAL_Eric DeCosta,0.02770375
+Justin Walley,2025,CB,Minnesota,CLE_Andrew Berry,0.057548665,SF_John Lynch,0.05347241,MIN_Kwesi Adofo-Mensah,0.047418226,LA_Les Snead,0.047376156,SEA_John Schneider,0.03673948
+Kaden Prather,2025,WR,Maryland,DEN_George Paton,0.057492636,GB_Brian Gutekunst,0.046950035,JAX_Trent Baalke,0.04645076,SF_John Lynch,0.032182254,CLE_Andrew Berry,0.026206918
+Ashton Gillotte,2025,ED,Louisville,GB_Brian Gutekunst,0.057399165,IND_Chris Ballard,0.055767253,NO_Mickey Loomis,0.053800087,ARI_Monti Ossenfort,0.040633924,NYJ_Joe Douglas,0.034037597
+Francisco Mauigoa,2025,LB,Miami (FL),GB_Brian Gutekunst,0.05732986,BUF_Brandon Beane,0.040020622,NO_Mickey Loomis,0.03578838,ATL_Terry Fontenot,0.029328095,CLE_Andrew Berry,0.027361238
+Zah Frazier,2025,CB,UTSA,JAX_Trent Baalke,0.057101328,DEN_George Paton,0.045861755,MIN_Kwesi Adofo-Mensah,0.03747395,IND_Chris Ballard,0.0340421,GB_Brian Gutekunst,0.030228285
+Smael Mondon Jr.,2025,LB,Georgia,GB_Brian Gutekunst,0.057015777,IND_Chris Ballard,0.041153003,NYJ_Joe Douglas,0.03213706,TB_Jason Licht,0.032088857,BUF_Brandon Beane,0.027334727
+Nazir Stackhouse,2025,DT,Georgia,GB_Brian Gutekunst,0.05683735,HOU_Nick Caserio,0.049473546,KC_Brett Veach,0.045559995,LA_Les Snead,0.044843588,JAX_Trent Baalke,0.034631178
+Tai Felton,2025,WR,Maryland,TB_Jason Licht,0.056826223,ARI_Monti Ossenfort,0.037910543,BAL_Eric DeCosta,0.035500824,GB_Brian Gutekunst,0.03430175,PHI_Howie Roseman,0.030156944
+Xavier Truss,2025,G,Georgia,LA_Les Snead,0.056673132,JAX_Trent Baalke,0.03945336,BUF_Brandon Beane,0.034399908,HOU_Nick Caserio,0.03312131,BAL_Eric DeCosta,0.030780315
+Caleb Ransaw,2025,CB,Tulane,JAX_Trent Baalke,0.056023587,IND_Chris Ballard,0.04088208,SF_John Lynch,0.039262414,NYG_Joe Schoen,0.034537908,PHI_Howie Roseman,0.03233005
+Jordan Hancock,2025,CB,Ohio State,LA_Les Snead,0.055934787,SF_John Lynch,0.052589748,CLE_Andrew Berry,0.042771816,JAX_Trent Baalke,0.027530514,MIN_Kwesi Adofo-Mensah,0.026283877
+Brant Kuithe,2025,TE,Utah,DAL_Jerry Jones,0.055864826,NYJ_Joe Douglas,0.05016934,GB_Brian Gutekunst,0.04582493,DEN_George Paton,0.04201925,ATL_Terry Fontenot,0.03508889
+Luke Kandra,2025,G,Cincinnati,TB_Jason Licht,0.055794314,GB_Brian Gutekunst,0.051448166,DAL_Jerry Jones,0.042138252,BAL_Eric DeCosta,0.03926937,LV_Tom Telesco,0.029274302
+Chase Lundt,2025,T,Connecticut,BAL_Eric DeCosta,0.055623285,SF_John Lynch,0.047480267,GB_Brian Gutekunst,0.04205973,MIA_Chris Grier,0.028497433,ARI_Monti Ossenfort,0.028368207
+Walter Nolen,2025,DT,Ole Miss,DEN_George Paton,0.055612806,HOU_Nick Caserio,0.04865435,CLE_Andrew Berry,0.031880755,ATL_Terry Fontenot,0.03169625,GB_Brian Gutekunst,0.028527958
+Jarquez Hunter,2025,RB,Auburn,TB_Jason Licht,0.05554823,LA_Les Snead,0.055424497,NO_Mickey Loomis,0.055280846,GB_Brian Gutekunst,0.04304859,SEA_John Schneider,0.03618021
+Omarion Hampton,2025,RB,North Carolina,IND_Chris Ballard,0.055500463,GB_Brian Gutekunst,0.045897163,MIA_Chris Grier,0.039479166,KC_Brett Veach,0.0365334,ATL_Terry Fontenot,0.033728313
+Cam Jackson,2025,DT,Florida,BAL_Eric DeCosta,0.055439223,TEN_Ran Carthon,0.049682874,CHI_Ryan Poles,0.04893633,KC_Brett Veach,0.038734514,SEA_John Schneider,0.030435583
+Howard Cross III,2025,DT,Notre Dame,ATL_Terry Fontenot,0.055225637,GB_Brian Gutekunst,0.05239169,CLE_Andrew Berry,0.029623039,CIN_Mike Brown,0.026827497,SF_John Lynch,0.026375482
+Nic Scourton,2025,ED,Texas A&M,HOU_Nick Caserio,0.054966677,TB_Jason Licht,0.0460462,DEN_George Paton,0.039463844,CLE_Andrew Berry,0.035104364,LAC_Joe Hortiz,0.033197362
+Torricelli Simpkins III,2025,G,South Carolina,GB_Brian Gutekunst,0.054945417,BUF_Brandon Beane,0.038385786,JAX_Trent Baalke,0.03832672,LA_Les Snead,0.036584675,BAL_Eric DeCosta,0.031227445
+Isas Waxter,2025,CB,Villanova,BUF_Brandon Beane,0.05486955,NYJ_Joe Douglas,0.043987468,GB_Brian Gutekunst,0.03560564,CLE_Andrew Berry,0.034832332,NE_Eliot Wolf,0.032603204
+Azareye'h Thomas,2025,CB,Florida State,KC_Brett Veach,0.054854885,DEN_George Paton,0.03629895,DAL_Jerry Jones,0.031114338,CIN_Mike Brown,0.028993858,TB_Jason Licht,0.026731407
+Josh Conerly Jr.,2025,T,Oregon,SEA_John Schneider,0.05482701,PIT_Omar Khan,0.047092516,CHI_Ryan Poles,0.030300219,GB_Brian Gutekunst,0.029361784,CIN_Mike Brown,0.027732506
+Tre Harris,2025,WR,Ole Miss,BUF_Brandon Beane,0.05464577,DET_Brad Holmes,0.041269273,CAR_Scott Fitterer,0.034777105,CLE_Andrew Berry,0.033658896,NE_Eliot Wolf,0.030739596
+Jacob Parrish,2025,CB,Kansas State,IND_Chris Ballard,0.054509234,SF_John Lynch,0.041916706,ARI_Monti Ossenfort,0.039648548,CAR_Scott Fitterer,0.034238275,TB_Jason Licht,0.03233826
+Ashton Jeanty,2025,RB,Boise State,ARI_Monti Ossenfort,0.054489512,PHI_Howie Roseman,0.049254127,NYG_Joe Schoen,0.048258886,BAL_Eric DeCosta,0.032073762,MIN_Kwesi Adofo-Mensah,0.026356902
+Aeneas Peebles,2025,DT,Virginia Tech,LA_Les Snead,0.054403372,SF_John Lynch,0.04387855,SEA_John Schneider,0.036618955,ATL_Terry Fontenot,0.034126732,JAX_Trent Baalke,0.03263203
+Chimere Dike,2025,WR,Florida,IND_Chris Ballard,0.054362215,DEN_George Paton,0.051053666,JAX_Trent Baalke,0.042326994,PHI_Howie Roseman,0.026304614,MIA_Chris Grier,0.024077449
+Kurtis Rourke,2025,QB,Indiana,GB_Brian Gutekunst,0.054310367,SF_John Lynch,0.052980207,NO_Mickey Loomis,0.03903188,ATL_Terry Fontenot,0.035409868,CLE_Andrew Berry,0.035362326
+Quinshon Judkins,2025,RB,Ohio State,DET_Brad Holmes,0.054076634,GB_Brian Gutekunst,0.04923636,CAR_Scott Fitterer,0.045636397,JAX_Trent Baalke,0.04516481,MIA_Chris Grier,0.04025539
+Josaiah Stewart,2025,ED,Michigan,DEN_George Paton,0.054018468,TB_Jason Licht,0.041493557,NYJ_Joe Douglas,0.03395846,HOU_Nick Caserio,0.024196832,ATL_Terry Fontenot,0.022706876
+Jahvaree Ritzie,2025,DT,North Carolina,PHI_Howie Roseman,0.054007642,GB_Brian Gutekunst,0.03349958,TB_Jason Licht,0.03230545,CIN_Mike Brown,0.024617365,MIN_Kwesi Adofo-Mensah,0.024612034
+Dorian Strong,2025,CB,Virginia Tech,BAL_Eric DeCosta,0.0539959,CAR_Scott Fitterer,0.043456294,KC_Brett Veach,0.04273164,CLE_Andrew Berry,0.032379873,MIN_Kwesi Adofo-Mensah,0.031164223
+Kelvin Banks Jr.,2025,T,Texas,NO_Mickey Loomis,0.053905547,JAX_Trent Baalke,0.039224483,BAL_Eric DeCosta,0.037436586,PIT_Omar Khan,0.032431394,CLE_Andrew Berry,0.026292037
+Jaylin Smith,2025,CB,USC,SF_John Lynch,0.053692706,LA_Les Snead,0.039544124,CLE_Andrew Berry,0.029509988,BAL_Eric DeCosta,0.026158197,JAX_Trent Baalke,0.022075582
+Charles Grant,2025,T,William & Mary,DAL_Jerry Jones,0.05352571,NYJ_Joe Douglas,0.046133224,BAL_Eric DeCosta,0.024202054,KC_Brett Veach,0.023673313,CIN_Mike Brown,0.02192324
+Jalon Walker,2025,LB,Georgia,GB_Brian Gutekunst,0.053109325,CAR_Scott Fitterer,0.048139207,NYJ_Joe Douglas,0.03520507,PHI_Howie Roseman,0.028475916,LAC_Joe Hortiz,0.022777686
+Tonka Hemingway,2025,DT,South Carolina,PHI_Howie Roseman,0.05310107,GB_Brian Gutekunst,0.04270825,ATL_Terry Fontenot,0.038632303,MIN_Kwesi Adofo-Mensah,0.028148487,HOU_Nick Caserio,0.025150161
+Will Johnson,2025,CB,Michigan,BAL_Eric DeCosta,0.05309654,GB_Brian Gutekunst,0.0422785,SEA_John Schneider,0.025868734,ARI_Monti Ossenfort,0.025016505,DAL_Jerry Jones,0.02392092
+Barrett Carter,2025,LB,Clemson,NYJ_Joe Douglas,0.052677196,HOU_Nick Caserio,0.044558622,SEA_John Schneider,0.043052867,CIN_Mike Brown,0.030977832,NO_Mickey Loomis,0.027216986
+Thomas Fidone II,2025,TE,Nebraska,IND_Chris Ballard,0.05251594,GB_Brian Gutekunst,0.045281626,NO_Mickey Loomis,0.044243705,PHI_Howie Roseman,0.04066154,CLE_Andrew Berry,0.033313293
+Dylan Sampson,2025,RB,Tennessee,GB_Brian Gutekunst,0.05169526,ARI_Monti Ossenfort,0.03891496,TB_Jason Licht,0.037244175,SEA_John Schneider,0.035391957,NO_Mickey Loomis,0.025892952
+Eric Gregory,2025,DT,Arkansas,LA_Les Snead,0.051638696,SEA_John Schneider,0.04021916,ARI_Monti Ossenfort,0.033004448,ATL_Terry Fontenot,0.023302838,BAL_Eric DeCosta,0.022836734
+Zy Alexander,2025,CB,LSU,TEN_Ran Carthon,0.051418666,BAL_Eric DeCosta,0.04545486,KC_Brett Veach,0.044610903,CHI_Ryan Poles,0.03054575,SEA_John Schneider,0.027665371
+Ahmed Hassanein,2025,ED,Boise State,GB_Brian Gutekunst,0.051365357,CIN_Mike Brown,0.043167107,ARI_Monti Ossenfort,0.038010444,NO_Mickey Loomis,0.033631593,ATL_Terry Fontenot,0.03159611
+Gavin Bartholomew,2025,TE,Pittsburgh,GB_Brian Gutekunst,0.051189188,LA_Les Snead,0.041560423,SF_John Lynch,0.035318106,BAL_Eric DeCosta,0.028610796,ATL_Terry Fontenot,0.027482472
+Jake Majors,2025,C,Texas,MIN_Kwesi Adofo-Mensah,0.051094066,GB_Brian Gutekunst,0.036714435,BAL_Eric DeCosta,0.02952306,SF_John Lynch,0.027017314,ATL_Terry Fontenot,0.024997436
+Trevor Etienne,2025,RB,Georgia,ARI_Monti Ossenfort,0.050865855,JAX_Trent Baalke,0.050362844,BAL_Eric DeCosta,0.030611515,PHI_Howie Roseman,0.030591242,KC_Brett Veach,0.030088728
+Tommy Akingbesote,2025,DT,Maryland,SEA_John Schneider,0.05082582,JAX_Trent Baalke,0.044475432,LA_Les Snead,0.03543694,HOU_Nick Caserio,0.03491408,TEN_Ran Carthon,0.02443219
+Dillon Gabriel,2025,QB,Oregon,NO_Mickey Loomis,0.05082395,TB_Jason Licht,0.04717324,GB_Brian Gutekunst,0.04451821,KC_Brett Veach,0.03479102,LA_Les Snead,0.029659132
+RJ Harvey,2025,RB,UCF,TB_Jason Licht,0.050722335,CAR_Scott Fitterer,0.035326507,IND_Chris Ballard,0.031904887,NYG_Joe Schoen,0.030132996,GB_Brian Gutekunst,0.028215218
+Garrett Dellinger,2025,G,LSU,TB_Jason Licht,0.050699353,GB_Brian Gutekunst,0.048548784,BAL_Eric DeCosta,0.04694183,ATL_Terry Fontenot,0.033472788,DET_Brad Holmes,0.029624142
+Jason Marshall Jr.,2025,CB,Florida,JAX_Trent Baalke,0.05061414,NYG_Joe Schoen,0.034431864,MIN_Kwesi Adofo-Mensah,0.03306688,DET_Brad Holmes,0.031940345,SEA_John Schneider,0.030958263
+Bam Martin-Scott,2025,LB,South Carolina,BUF_Brandon Beane,0.050589908,JAX_Trent Baalke,0.049990643,GB_Brian Gutekunst,0.04626253,BAL_Eric DeCosta,0.02978194,DEN_George Paton,0.023441855
+Deone Walker,2025,DT,Kentucky,TEN_Ran Carthon,0.050456904,KC_Brett Veach,0.044652477,CLE_Andrew Berry,0.03566647,BAL_Eric DeCosta,0.034301504,TB_Jason Licht,0.030721148
+Rayuan Lane III,2025,S,Navy,JAX_Trent Baalke,0.05018155,BUF_Brandon Beane,0.04870465,LA_Les Snead,0.046190552,NYG_Joe Schoen,0.035008598,GB_Brian Gutekunst,0.032228775
+Woody Marks,2025,RB,USC,BUF_Brandon Beane,0.05004563,CLE_Andrew Berry,0.044485237,BAL_Eric DeCosta,0.02592264,GB_Brian Gutekunst,0.023545323,KC_Brett Veach,0.02279442
+Darius Alexander,2025,DT,Toledo,NO_Mickey Loomis,0.050021496,CIN_Mike Brown,0.033687066,LA_Les Snead,0.033440746,DAL_Jerry Jones,0.032215547,CHI_Ryan Poles,0.025639582
+John Williams,2025,T,Cincinnati,ARI_Monti Ossenfort,0.049924787,MIN_Kwesi Adofo-Mensah,0.048812717,NO_Mickey Loomis,0.0487971,LV_Tom Telesco,0.034160882,NYG_Joe Schoen,0.03412485
+Kobe King,2025,LB,Penn State,GB_Brian Gutekunst,0.04991157,KC_Brett Veach,0.04014038,NYJ_Joe Douglas,0.038168836,CLE_Andrew Berry,0.03737663,ATL_Terry Fontenot,0.03211975
+Mason Taylor,2025,TE,LSU,GB_Brian Gutekunst,0.04979365,NYJ_Joe Douglas,0.035056084,BAL_Eric DeCosta,0.028127177,DEN_George Paton,0.02779619,ATL_Terry Fontenot,0.027341167
+Joshua Simon,2025,TE,South Carolina,BUF_Brandon Beane,0.049243752,LAC_Joe Hortiz,0.04517204,DEN_George Paton,0.04180728,DAL_Jerry Jones,0.040406916,LA_Les Snead,0.02764225
+Benjamin Morrison,2025,CB,Notre Dame,BAL_Eric DeCosta,0.04921491,SEA_John Schneider,0.04833781,PHI_Howie Roseman,0.030099656,CIN_Mike Brown,0.029986404,GB_Brian Gutekunst,0.029131554
+Bradyn Swinson,2025,ED,LSU,HOU_Nick Caserio,0.04918439,CLE_Andrew Berry,0.04728442,ATL_Terry Fontenot,0.034840554,GB_Brian Gutekunst,0.029402837,KC_Brett Veach,0.027057571
+Billy Bowman Jr.,2025,S,Oklahoma,BAL_Eric DeCosta,0.049060687,ARI_Monti Ossenfort,0.04514363,KC_Brett Veach,0.029028835,CLE_Andrew Berry,0.027913278,GB_Brian Gutekunst,0.026692199
+Malik Verdon,2025,S,Iowa State,MIN_Kwesi Adofo-Mensah,0.048916653,HOU_Nick Caserio,0.048024394,SF_John Lynch,0.042874973,GB_Brian Gutekunst,0.04222889,DEN_George Paton,0.03903493
+Abdul Carter,2025,ED,Penn State,ATL_Terry Fontenot,0.048840735,NYG_Joe Schoen,0.04359969,BAL_Eric DeCosta,0.03889965,HOU_Nick Caserio,0.027376138,ARI_Monti Ossenfort,0.02479336
+Hunter Wohler,2025,S,Wisconsin,GB_Brian Gutekunst,0.048824076,IND_Chris Ballard,0.045030735,BUF_Brandon Beane,0.04432733,PHI_Howie Roseman,0.043277085,CLE_Andrew Berry,0.03753576
+Harold Fannin Jr.,2025,TE,Bowling Green,IND_Chris Ballard,0.048781294,NO_Mickey Loomis,0.04422802,KC_Brett Veach,0.038431875,GB_Brian Gutekunst,0.036239915,PIT_Omar Khan,0.031441677
+Kitan Crawford,2025,S,Nevada,NYG_Joe Schoen,0.048746437,MIN_Kwesi Adofo-Mensah,0.046628967,PHI_Howie Roseman,0.036921706,JAX_Trent Baalke,0.0366348,ARI_Monti Ossenfort,0.035119265
+T.J. Sanders,2025,DT,South Carolina,ATL_Terry Fontenot,0.04872269,HOU_Nick Caserio,0.037204262,CLE_Andrew Berry,0.03605272,DEN_George Paton,0.029335236,TB_Jason Licht,0.023424843
+David Walker,2025,ED,Central Arkansas,BUF_Brandon Beane,0.048720807,LA_Les Snead,0.04421151,NO_Mickey Loomis,0.043849535,GB_Brian Gutekunst,0.038558103,NYJ_Joe Douglas,0.035523403
+Moliki Matavao,2025,TE,UCLA,GB_Brian Gutekunst,0.048645288,TEN_Ran Carthon,0.0455809,JAX_Trent Baalke,0.036254246,BAL_Eric DeCosta,0.033236172,TB_Jason Licht,0.024961397
+Antwane Wells Jr.,2025,WR,Ole Miss,JAX_Trent Baalke,0.04852028,BUF_Brandon Beane,0.04012497,GB_Brian Gutekunst,0.030920323,DAL_Jerry Jones,0.030008633,SF_John Lynch,0.023842284
+O'Donnell Fortune,2025,CB,South Carolina,SF_John Lynch,0.04850469,BAL_Eric DeCosta,0.04089822,JAX_Trent Baalke,0.037063204,MIN_Kwesi Adofo-Mensah,0.03277599,KC_Brett Veach,0.030762227
+Seth Henigan,2025,QB,Memphis,ATL_Terry Fontenot,0.048355233,SF_John Lynch,0.043045152,GB_Brian Gutekunst,0.04153575,CHI_Ryan Poles,0.03036927,HOU_Nick Caserio,0.022132544
+Alijah Huzzie,2025,CB,North Carolina,SF_John Lynch,0.048248325,JAX_Trent Baalke,0.046865836,LA_Les Snead,0.03852737,CAR_Scott Fitterer,0.03099675,MIN_Kwesi Adofo-Mensah,0.030154346
+Jack Sawyer,2025,ED,Ohio State,GB_Brian Gutekunst,0.04812792,NYJ_Joe Douglas,0.03639702,TB_Jason Licht,0.036011163,BAL_Eric DeCosta,0.027351722,DEN_George Paton,0.024691239
+Jabbar Muhammad,2025,CB,Oregon,LA_Les Snead,0.047874637,CLE_Andrew Berry,0.04022647,BAL_Eric DeCosta,0.03939253,SF_John Lynch,0.034061123,MIA_Chris Grier,0.03398718
+Oluwafemi Oladejo,2025,ED,UCLA,IND_Chris Ballard,0.047811534,NO_Mickey Loomis,0.046983056,CLE_Andrew Berry,0.030772883,KC_Brett Veach,0.027422402,NYJ_Joe Douglas,0.025087105
+Emery Jones Jr.,2025,T,LSU,CLE_Andrew Berry,0.047800776,NYJ_Joe Douglas,0.04311966,PHI_Howie Roseman,0.040837497,JAX_Trent Baalke,0.035760175,LAC_Joe Hortiz,0.027880056
+Cam Skattebo,2025,RB,Arizona State,DEN_George Paton,0.04734189,NYG_Joe Schoen,0.04469476,NYJ_Joe Douglas,0.043876037,GB_Brian Gutekunst,0.038532335,CAR_Scott Fitterer,0.035542443
+Tyler Shough,2025,QB,Louisville,LA_Les Snead,0.047190648,GB_Brian Gutekunst,0.043852415,NO_Mickey Loomis,0.039827075,CHI_Ryan Poles,0.0364616,TEN_Ran Carthon,0.03382724
+Vernon Broughton,2025,DT,Texas,MIN_Kwesi Adofo-Mensah,0.047126174,NYJ_Joe Douglas,0.043026052,CLE_Andrew Berry,0.04032652,PHI_Howie Roseman,0.033806477,BAL_Eric DeCosta,0.032342326
+Kaimon Rucker,2025,ED,North Carolina,GB_Brian Gutekunst,0.047014933,ATL_Terry Fontenot,0.040073857,TB_Jason Licht,0.034365196,NYJ_Joe Douglas,0.033488188,LA_Les Snead,0.02614334
+Sam Brown Jr.,2025,WR,Miami (FL),PHI_Howie Roseman,0.04701125,GB_Brian Gutekunst,0.041242585,NYG_Joe Schoen,0.029704696,IND_Chris Ballard,0.029571395,LA_Les Snead,0.029097287
+Mac McWilliams,2025,CB,UCF,CLE_Andrew Berry,0.046536718,SEA_John Schneider,0.043163996,BAL_Eric DeCosta,0.04162273,SF_John Lynch,0.035405144,JAX_Trent Baalke,0.030653113
+Aireontae Ersery,2025,T,Minnesota,KC_Brett Veach,0.046003327,GB_Brian Gutekunst,0.03987989,BAL_Eric DeCosta,0.035060942,CIN_Mike Brown,0.03224305,LAC_Joe Hortiz,0.030643588
+Donovan Edwards,2025,RB,Michigan,LA_Les Snead,0.045772497,NYG_Joe Schoen,0.039853975,JAX_Trent Baalke,0.037588067,PHI_Howie Roseman,0.033755362,CIN_Mike Brown,0.026558144
+Tim Smith,2025,DT,Alabama,CLE_Andrew Berry,0.045528315,BAL_Eric DeCosta,0.0430628,HOU_Nick Caserio,0.04167917,MIN_Kwesi Adofo-Mensah,0.040045656,LA_Les Snead,0.034658656
+Kyle Monangai,2025,RB,Rutgers,TB_Jason Licht,0.045500316,SF_John Lynch,0.038144927,JAX_Trent Baalke,0.03358631,GB_Brian Gutekunst,0.029560631,BUF_Brandon Beane,0.027990563
+Andres Borregales,2025,K,Miami (FL),SF_John Lynch,0.045187023,JAX_Trent Baalke,0.032577965,CHI_Ryan Poles,0.03159401,LA_Les Snead,0.030681528,BAL_Eric DeCosta,0.029584644
+Lathan Ransom,2025,S,Ohio State,NO_Mickey Loomis,0.044561982,CLE_Andrew Berry,0.033039767,PHI_Howie Roseman,0.030440642,CIN_Mike Brown,0.029662767,GB_Brian Gutekunst,0.029605284
+Ben Sauls,2025,K,Pittsburgh,JAX_Trent Baalke,0.044289596,BAL_Eric DeCosta,0.03555721,MIN_Kwesi Adofo-Mensah,0.03551794,CHI_Ryan Poles,0.031972792,LA_Les Snead,0.025157204
+Dominic Lovett,2025,WR,Georgia,SF_John Lynch,0.04392637,ARI_Monti Ossenfort,0.040160656,CLE_Andrew Berry,0.03249041,NO_Mickey Loomis,0.03136198,BAL_Eric DeCosta,0.029195484
+Cam Horsley,2025,DT,Boston College,JAX_Trent Baalke,0.043173064,CLE_Andrew Berry,0.032381706,HOU_Nick Caserio,0.032121792,GB_Brian Gutekunst,0.03062929,BAL_Eric DeCosta,0.028246379
+Jamon Dumas-Johnson,2025,LB,Kentucky,CAR_Scott Fitterer,0.043111082,GB_Brian Gutekunst,0.041438002,CLE_Andrew Berry,0.037523486,SF_John Lynch,0.03226326,NYJ_Joe Douglas,0.030369591
+Mason Graham,2025,DT,Michigan,ATL_Terry Fontenot,0.043001153,NYG_Joe Schoen,0.03099448,GB_Brian Gutekunst,0.027824093,NYJ_Joe Douglas,0.024725681,IND_Chris Ballard,0.02220018
+Shemar James,2025,LB,Florida,BUF_Brandon Beane,0.042931866,JAX_Trent Baalke,0.04137577,SF_John Lynch,0.040086336,MIA_Chris Grier,0.037243474,LA_Les Snead,0.030261658
+Graham Mertz,2025,QB,Florida,GB_Brian Gutekunst,0.042701174,PHI_Howie Roseman,0.03663931,DET_Brad Holmes,0.03392962,NYJ_Joe Douglas,0.033678208,DEN_George Paton,0.033615723
+Carson Schwesinger,2025,LB,UCLA,NO_Mickey Loomis,0.042559814,KC_Brett Veach,0.03873821,GB_Brian Gutekunst,0.028564338,MIA_Chris Grier,0.028324014,DEN_George Paton,0.025638161
+Steve Linton,2025,ED,Baylor,CAR_Scott Fitterer,0.042440142,MIA_Chris Grier,0.040360756,JAX_Trent Baalke,0.025724165,DAL_Jerry Jones,0.025691098,DEN_George Paton,0.022285795
+Mello Dotson,2025,CB,Kansas,BUF_Brandon Beane,0.042427685,SEA_John Schneider,0.03634228,GB_Brian Gutekunst,0.034885217,KC_Brett Veach,0.03224917,ARI_Monti Ossenfort,0.030114528
+Jihaad Campbell,2025,LB,Alabama,GB_Brian Gutekunst,0.042426977,PIT_Omar Khan,0.03640456,IND_Chris Ballard,0.033142645,JAX_Trent Baalke,0.03099101,CAR_Scott Fitterer,0.028522696
+Quinn Ewers,2025,QB,Texas,HOU_Nick Caserio,0.041952237,ATL_Terry Fontenot,0.036466047,GB_Brian Gutekunst,0.036061052,CLE_Andrew Berry,0.033115774,NO_Mickey Loomis,0.03188731
+Junior Tafuna,2025,DT,Utah,ARI_Monti Ossenfort,0.04194281,LA_Les Snead,0.041850366,GB_Brian Gutekunst,0.0396384,SEA_John Schneider,0.027029116,JAX_Trent Baalke,0.026707515
+Kalel Mullings,2025,RB,Michigan,JAX_Trent Baalke,0.041849796,NYJ_Joe Douglas,0.04064419,GB_Brian Gutekunst,0.039852638,CAR_Scott Fitterer,0.037155833,CLE_Andrew Berry,0.03487987
+Ja'Corey Brooks,2025,WR,Louisville,GB_Brian Gutekunst,0.04184511,BAL_Eric DeCosta,0.03768398,KC_Brett Veach,0.036661644,SF_John Lynch,0.034521382,DEN_George Paton,0.027514003
+Jalen McLeod,2025,LB,Auburn,CAR_Scott Fitterer,0.04149923,GB_Brian Gutekunst,0.03986379,CLE_Andrew Berry,0.039024584,MIN_Kwesi Adofo-Mensah,0.03651647,DEN_George Paton,0.03316497
+Cameron Williams,2025,T,Texas,CLE_Andrew Berry,0.04106349,HOU_Nick Caserio,0.036357157,NYJ_Joe Douglas,0.032729294,BAL_Eric DeCosta,0.031607557,TEN_Ran Carthon,0.028105311
+Maxwell Hairston,2025,CB,Kentucky,MIA_Chris Grier,0.04080606,CIN_Mike Brown,0.03310746,JAX_Trent Baalke,0.02665183,IND_Chris Ballard,0.025950234,KC_Brett Veach,0.025760535
+Tyler Loop,2025,K,Arizona,JAX_Trent Baalke,0.040242262,BAL_Eric DeCosta,0.034948815,CHI_Ryan Poles,0.031842485,MIN_Kwesi Adofo-Mensah,0.031494148,SF_John Lynch,0.028730229
+Xavier Restrepo,2025,WR,Miami (FL),GB_Brian Gutekunst,0.03976769,HOU_Nick Caserio,0.031533834,TB_Jason Licht,0.030352257,SEA_John Schneider,0.029447842,BAL_Eric DeCosta,0.024430659
+Jermari Harris,2025,CB,Iowa,SF_John Lynch,0.039755296,JAX_Trent Baalke,0.03327437,KC_Brett Veach,0.028931856,GB_Brian Gutekunst,0.027181745,BAL_Eric DeCosta,0.024164423
+Traeshon Holden,2025,WR,Oregon,BUF_Brandon Beane,0.039438542,GB_Brian Gutekunst,0.035709698,JAX_Trent Baalke,0.031752106,CHI_Ryan Poles,0.02933322,KC_Brett Veach,0.02633105
+Carson Bruener,2025,LB,Washington,BUF_Brandon Beane,0.039044145,CLE_Andrew Berry,0.035325054,GB_Brian Gutekunst,0.033268753,NO_Mickey Loomis,0.029659702,TB_Jason Licht,0.025744557
+Derrick Harmon,2025,DT,Oregon,CHI_Ryan Poles,0.039007444,HOU_Nick Caserio,0.035275426,CIN_Mike Brown,0.03516664,CLE_Andrew Berry,0.033250313,SEA_John Schneider,0.032627985
+Donovan Ezeiruaku,2025,ED,Boston College,IND_Chris Ballard,0.03877069,DEN_George Paton,0.037676875,DET_Brad Holmes,0.03682549,NYJ_Joe Douglas,0.02908025,CAR_Scott Fitterer,0.028697312
+Malaki Starks,2025,S,Georgia,SEA_John Schneider,0.038398296,KC_Brett Veach,0.029695654,HOU_Nick Caserio,0.029301398,BAL_Eric DeCosta,0.027360337,BUF_Brandon Beane,0.024094671
+Fadil Diggs,2025,ED,Syracuse,GB_Brian Gutekunst,0.038106743,JAX_Trent Baalke,0.036380667,CLE_Andrew Berry,0.03556033,ATL_Terry Fontenot,0.032628953,BUF_Brandon Beane,0.029269498
+Roc Taylor,2025,WR,Memphis,JAX_Trent Baalke,0.038020957,CLE_Andrew Berry,0.03683721,GB_Brian Gutekunst,0.036277816,MIN_Kwesi Adofo-Mensah,0.029256478,CHI_Ryan Poles,0.027907655
+Upton Stout,2025,CB,Western Kentucky,MIN_Kwesi Adofo-Mensah,0.03718275,JAX_Trent Baalke,0.032676768,NYG_Joe Schoen,0.029060464,MIA_Chris Grier,0.028385144,CAR_Scott Fitterer,0.026955068
+Ja'Quinden Jackson,2025,RB,Arkansas,LA_Les Snead,0.03683279,HOU_Nick Caserio,0.028746195,SF_John Lynch,0.02740983,NYJ_Joe Douglas,0.025665805,CAR_Scott Fitterer,0.024379747
+Jeffrey Bassa,2025,LB,Oregon,ARI_Monti Ossenfort,0.03680353,NYJ_Joe Douglas,0.03360398,LA_Les Snead,0.032224927,BUF_Brandon Beane,0.027701171,NO_Mickey Loomis,0.024613146
+Kenneth Grant,2025,DT,Michigan,CLE_Andrew Berry,0.036603782,KC_Brett Veach,0.029459117,LAC_Joe Hortiz,0.029398423,NYJ_Joe Douglas,0.027901232,HOU_Nick Caserio,0.025124563
+Shedeur Sanders,2025,QB,Colorado,CAR_Scott Fitterer,0.035822626,HOU_Nick Caserio,0.033168163,DEN_George Paton,0.023806337,MIA_Chris Grier,0.023548497,CLE_Andrew Berry,0.023473442
+Tyleik Williams,2025,DT,Ohio State,KC_Brett Veach,0.035009325,GB_Brian Gutekunst,0.03307951,CLE_Andrew Berry,0.025021294,DEN_George Paton,0.024693394,NYJ_Joe Douglas,0.022616306
+Ryan Fitzgerald,2025,K,Florida State,MIN_Kwesi Adofo-Mensah,0.034193657,JAX_Trent Baalke,0.033616636,CHI_Ryan Poles,0.032601304,BAL_Eric DeCosta,0.0309515,SF_John Lynch,0.028077934
+Xavier Watts,2025,S,Notre Dame,TB_Jason Licht,0.03380831,SEA_John Schneider,0.028961206,HOU_Nick Caserio,0.027751327,NYJ_Joe Douglas,0.027268363,CIN_Mike Brown,0.025096944
+Tez Johnson,2025,WR,Oregon,TB_Jason Licht,0.032360237,DET_Brad Holmes,0.031189067,MIA_Chris Grier,0.030211441,CIN_Mike Brown,0.028853126,GB_Brian Gutekunst,0.027764434
+Tetairoa McMillan,2025,WR,Arizona,DAL_Jerry Jones,0.031702902,GB_Brian Gutekunst,0.031106154,DEN_George Paton,0.030942617,NYJ_Joe Douglas,0.030271163,HOU_Nick Caserio,0.027598055
+JT Tuimoloau,2025,ED,Ohio State,CAR_Scott Fitterer,0.028509088,DET_Brad Holmes,0.025743315,NYJ_Joe Douglas,0.025259797,BAL_Eric DeCosta,0.02473144,DAL_Jerry Jones,0.02449151
