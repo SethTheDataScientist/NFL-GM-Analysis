@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import shap
 import os
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -83,6 +84,35 @@ if st.button("Similarity Plot"):
     # Show the plot
     st.pyplot(plt)
 
+
+# Read in the SHAP values table
+st.write("Here are some of the SHAP values from the analysis. SHAP values show an effective way of explaining how the model has learned to create the output. This is for the selected GM to give a sense of what the model found them to draft more consistently.")
+st.session_state.shap_values = np.load("streamlit_app/shap_values.npy")
+st.session_state.categories = pd.read_csv("streamlit_app/categories.csv")
+st.session_state.categories = pd.Index(st.session_state.categories)
+st.session_state.test_X = pd.read_csv("streamlit_app/test_X.csv")
+class_idx = st.session_state.categories.get_loc(st.session_state.target_column)  # class name
+
+# Extract SHAP values for that class
+st.session_state.shap_class_values = st.session_state.shap_values.values[:, :, class_idx]
+
+# Then create a new SHAP Explanation object for that class
+shap_class = shap.Explanation(
+    values=st.session_state.shap_class_values,
+    base_values=st.session_state.shap_values.base_values[:, class_idx],
+    data=st.session_state.shap_values.data,
+    feature_names=st.session_state.test_X.columns
+)
+
+
+shap.plots.beeswarm(shap_class, max_display=20)
+shap.plots.bar(shap_class, max_display=20)
+st.write("Below are specific SHAP plots for NGS athleticism and production scores.")
+shap.plots.scatter(shap_class[:, "athleticism_score"], color=shap_class)
+shap.plots.scatter(shap_class[:, "production_score"], color=shap_class)
+
+st.write("The last SHAP plot is a waterfall plot for the first player in the dataset. This shows how the model arrived at the output for that player.")
+shap.plots.waterfall(shap_class[0])
 
 # Read in the averages table
 st.session_state.averages = pd.read_csv("streamlit_app/averages.csv")
