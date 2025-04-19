@@ -7,7 +7,6 @@ import os
 import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy import stats
-import html
 
 st.set_page_config(layout="wide", 
     page_title="NFL GM Analysis",
