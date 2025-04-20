@@ -285,6 +285,14 @@ elif main_menu == 'Player Predictions':
         # Show the plot
         st.pyplot(plt)
 
+
+        # Read in the similarity table
+        st.session_state.wr_similarity = pd.read_csv("wr_data/similarity_list.csv")
+        st.session_state.wr_similarity = st.session_state.wr_similarity[['ID.x', 'ID.y', 'similarity']]
+        st.session_state.wr_similarity = st.session_state.wr_similarity[st.session_state.wr_similarity['ID.x'] == st.session_state.specific_wr]
+        st.write('This is a list of the top 5 most similar players in the NFL currently that I have college data for. This is the percentile of euclidian distance between the features of the model with higher weights towards playstyle and physical profile.')
+        st.dataframe(st.session_state.wr_similarity, use_container_width=True)
+
         
         # Read in the upcoming draft table
         st.session_state.wr_full_prospects = pd.read_csv("wr_data/full_list_prospects_wr.csv")
@@ -415,6 +423,14 @@ elif main_menu == 'Player Predictions':
         # Show the plot
         st.pyplot(plt)
 
+        # Read in the similarity table
+        st.session_state.rb_similarity = pd.read_csv("rb_data/similarity_list.csv")
+        st.session_state.rb_similarity = st.session_state.rb_similarity[['ID.x', 'ID.y', 'similarity']]
+        st.session_state.rb_similarity = st.session_state.rb_similarity[st.session_state.rb_similarity['ID.x'] == st.session_state.specific_rb]
+        st.write('This is a list of the top 5 most similar players in the NFL currently that I have college data for. This is the percentile of euclidian distance between the features of the model with higher weights towards playstyle and physical profile.')
+        st.dataframe(st.session_state.rb_similarity, use_container_width=True)
+
+        
         
         # Read in the upcoming draft table
         st.session_state.rb_full_prospects = pd.read_csv("rb_data/full_list_prospects_rb.csv")
