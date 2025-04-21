@@ -25,13 +25,8 @@ main_menu = st.sidebar.radio(
 if main_menu == "GM Analysis":
     st.header("GM Analysis")
     st.session_state.target_column = None
-    st.write("Here is my model output from an analysis of NFL GMs. The data used for training is the draft picks from 2003 to 2024 drafts along with features about the prospects including athletic testing, consensus big board rank, and NGS scores. The model was trained to predict the class label of the GM most likely to draft that player. The model was trained with recency weighting by an exponential function centered on the 2021 draft with an alpha of 0.5 (2024 = 4.48, 2021 = 1.0, and 2003 = 0.00012). Given all the biases inherent with the draft and any post-hoc analysis, the model is not very accurate but it is at least interesting.")
-    st.write("The model was trained using a XGBoost Classifier with the following hyperparameters and model performance metrics:")
-    st.write("Hyperparameters: 'colsample_bytree': 1.0, 'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 200, 'subsample': 0.8")
-    st.write("Model Performance: log_loss: 4.2819, roc_auc_ovr_macro: 0.3894, top_1_accuracy: 0.0279, top_5_accuracy: 0.1540")
-    st.image("gm_data/feature_importance.png", caption="XGBoost Feature Importances")
-
-
+    st.write("Here is my model output from an analysis of NFL GMs. The data used for training is the draft picks from 2003 to 2024 drafts along with features about the prospects including athletic testing, consensus big board rank, and NGS scores. The model was trained to predict the class label of the GM most likely to draft that player. Given all the biases inherent with the draft and any post-hoc analysis, the model is not very accurate but it is at least interesting.")
+    
     # Read in the upcoming draft table
     st.session_state.current_prospects = pd.read_csv("gm_data/current_year.csv")
     st.subheader("Current Year Predictions")
@@ -97,7 +92,34 @@ if main_menu == "GM Analysis":
         # Show the plot
         st.pyplot(plt)
 
+    # Read in the averages table
+    st.session_state.averages = pd.read_csv("gm_data/averages.csv")
+    st.subheader("Other Tables")
+    st.write("Below are some tables of outputs of the model by GM or prospect.")
+    st.write("This first table is the averages of the features for each GM for all players drafted by that GM.")
 
+    st.dataframe(st.session_state.averages.drop(columns=['Unnamed: 0']), use_container_width=True)
+
+
+    # Read in the players and their top 5 GMs
+    st.session_state.top_5_labels = pd.read_csv("gm_data/top_5_labels.csv")
+    st.write("Next is a list of all the players in the sample by the five most likely GMs to draft them.")
+
+    st.dataframe(st.session_state.top_5_labels, use_container_width=True)
+
+    # Read in the players by if they had a specific GM within their top 5
+
+    st.session_state.all_players_top5 = pd.read_csv("gm_data/all_players_top5.csv")
+
+    st.write("Finally is a list of the players by if they had a GM within their top 5 most likely outcomes.")
+
+    st.dataframe(st.session_state.all_players_top5, use_container_width=True)
+
+    st.subheader("Model Explanation")
+    st.write("The model was trained using a XGBoost Classifier and was trained with recency weighting by an exponential function centered on the 2021 draft with an alpha of 0.5 (2024 = 4.48, 2021 = 1.0, and 2003 = 0.00012). It had the following hyperparameters and model performance metrics:")
+    st.write("Hyperparameters: 'colsample_bytree': 1.0, 'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 200, 'subsample': 0.8")
+    st.write("Model Performance: log_loss: 4.2819, roc_auc_ovr_macro: 0.3894, top_1_accuracy: 0.0279, top_5_accuracy: 0.1540")
+    st.image("gm_data/feature_importance.png", caption="XGBoost Feature Importances")
     # Read in the SHAP values table
     st.subheader("SHAP Analysis")
     st.write("Here are some of the SHAP values from the analysis. SHAP values show an effective way of explaining how the model has learned to create the output. This is for the selected GM to give a sense of what the model found them to draft more consistently.")
@@ -157,28 +179,6 @@ if main_menu == "GM Analysis":
     st.pyplot(fig4)
 
 
-    # Read in the averages table
-    st.session_state.averages = pd.read_csv("gm_data/averages.csv")
-    st.subheader("Other Tables")
-    st.write("Below are some tables of outputs of the model by GM or prospect.")
-    st.write("This first table is the averages of the features for each GM for all players drafted by that GM.")
-
-    st.dataframe(st.session_state.averages, use_container_width=True)
-
-
-    # Read in the players and their top 5 GMs
-    st.session_state.top_5_labels = pd.read_csv("gm_data/top_5_labels.csv")
-    st.write("Next is a list of all the players in the sample by the five most likely GMs to draft them.")
-
-    st.dataframe(st.session_state.top_5_labels, use_container_width=True)
-
-    # Read in the players by if they had a specific GM within their top 5
-
-    st.session_state.all_players_top5 = pd.read_csv("gm_data/all_players_top5.csv")
-
-    st.write("Finally is a list of the players by if they had a GM within their top 5 most likely outcomes.")
-
-    st.dataframe(st.session_state.all_players_top5, use_container_width=True)
 
 elif main_menu == 'Player Predictions':
     tab1, tab2 = st.tabs(['WR Model', 'RB Model'])
