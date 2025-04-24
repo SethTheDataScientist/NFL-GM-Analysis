@@ -7,6 +7,7 @@ import os
 import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy import stats
+from adjustText import adjust_text
 
 st.set_page_config(layout="wide", 
     page_title="NFL GM Analysis",
@@ -20,7 +21,7 @@ st.title("NFL Draft Analysis")
 # Sidebar for main sections
 main_menu = st.sidebar.radio(
     "Select an Analysis",
-    ["GM Analysis", "Player Predictions"]
+    ["GM Analysis", "Player Predictions", 'NLP Scouting Analysis']
 )
 if main_menu == "GM Analysis":
     st.header("GM Analysis")
@@ -468,7 +469,96 @@ elif main_menu == 'Player Predictions':
 
 
 
+elif main_menu == 'NLP Scouting Analysis':
 
+    st.header("Natural Language Processing Analysis")
+    st.write('This is an analysis that I did based on scouting reports written by Dane Brugler at the Athletic in his infamous "Beast" draft guide. I collected the scouting reports for all players since the 2019 draft and did some analysis which you can see below. I have a more thorough writeup on my portfolio.')
+    position = st.selectbox("Select a positon group to investigate", ['CB', 'WR', 'TE', 'RB', 'EDGE', 'DT', 'S', 'QB', 'OT', 'OG', 'C', 'LB'])
+    select_columns = ['player_x', 'Position', 'Nic_year', 'top_bigrams']
+    similar_columns = ['player_x', 'Position', 'Nic_year']
+
+
+    st.subheader("Bi-gram Correlation")
+    st.write('This is a collection of two words (bi-gram) found within the scouting report and their correlation with NFL Wins Above Replacement using PFF grades.')
+    st.image(f"data/{position}/{position}_bigram_correlation.png")
+
+    st.subheader("Common Bi-grams")
+    st.write('These are the most common bi-grams across the position group among players with NFL WAR above the 75th percentile (good players) and those with WAR below the 25th percentile (bad players)')
+    st.image(f"data/{position}/{position}_Most common bigrams for players above 75th percentile.png")
+
+    st.image(f"data/{position}/{position}_Most common bigrams for players below 25th percentile.png")
+
+
+    st.subheader("Sentiment Analysis")
+    st.write('I computed the sentiment analysis of the words in the strengths and weaknesses sections to get a sense of how positive, negative, or neutral the words were in those sections.')
+    st.image(f"data/{position}/{position}_sentiment_analysis.png")
+
+
+
+    st.subheader("Current Prospects")
+    st.write('This is a table listing the current year prospects, their top 10 most used bi-grams, and their similarity scores with NFL players. The prediction column is based on the similarity score and the WAR of that player, scaled to how similar they are.')
+    st.session_state.current_prospects_similar = pd.read_csv(f'data/{position}/{position}_full_similar_df.csv')
+
+    select_columns += [col for col in st.session_state.current_prospects_similar.columns if 'similar_' in col]
+    select_columns += ['prediction']
+    st.session_state.current_prospects_similar = st.session_state.current_prospects_similar[st.session_state.current_prospects_similar['Nic_year'] == 2025]
+    st.session_state.current_prospects_similar = st.session_state.current_prospects_similar.sort_values('prediction', ascending=False)
+    st.dataframe(st.session_state.current_prospects_similar[select_columns], use_container_width=True)
+
+
+
+    st.subheader("Full Prospects")
+    st.session_state.full_prospects = pd.read_csv(f'data/{position}/{position}_current_loop_df.csv')
+    st.session_state.full_prospects_similar = pd.read_csv(f'data/{position}/{position}_similar_df.csv')
+
+    st.session_state.full_prospects_similar = pd.merge(st.session_state.full_prospects_similar, st.session_state.full_prospects.drop(columns = ['player_x', 'Position', 'Nic_year']), how = 'left', on = 'join_slug')
+
+    st.session_state.full_prospects_similar = st.session_state.full_prospects_similar.sort_values('prediction', ascending=False)
+    st.dataframe(st.session_state.full_prospects_similar[select_columns], use_container_width=True)
+
+    player = st.selectbox("Select a specific player to see them on the LSA plot", list(set(st.session_state.current_prospects_similar['player_x'])))
+    
+    st.session_state.lsa_matrix = np.load(f'data/{position}/{position}_full_lsa_matrix.npy')
+
+    percentiles = np.percentile(st.session_state.full_prospects['WAR'], [25, 75])
+
+    plt.figure(figsize=(12, 10))
+        
+    # Use first two LSA components for visualization
+    x = st.session_state.lsa_matrix[:, 0]
+    y = st.session_state.lsa_matrix[:, 1]
+    
+    # Color points — highlight the selected player
+    colors = [
+        'red' if st.session_state.full_prospects['player_x'].iloc[i] == player else 'blue'
+        for i in range(len(x))
+    ]
+
+    # Scatter plot
+    plt.scatter(x, y, c=colors, s=120, alpha=0.7)
+
+    # Add labels for high WAR or selected player
+    texts = [
+        plt.text(x[i], y[i], st.session_state.full_prospects['player_x'].iloc[i], fontsize=12)
+        for i in range(len(x))
+        if (st.session_state.full_prospects['WAR'].iloc[i] >= percentiles[1]) or (st.session_state.full_prospects['player_x'].iloc[i] == player)
+    ]
+
+    adjust_text(
+        texts,
+        force_text=0.5,
+        expand_text=(1.2, 1.4),
+        arrowprops=dict(arrowstyle='->', color='gray')
+    )
+    plt.title('Players Positioned in LSA Semantic Space (2D)')
+    plt.xlabel('LSA Component 1')
+    plt.ylabel('LSA Component 2')
+    plt.legend(title='Position')
+    plt.grid(True, linestyle='--', alpha=0.6)
+    # Show the plot
+    plt.tight_layout()
+    # Show the plot
+    st.pyplot(plt)
 
 st.subheader("About Me")
 st.write('If you want to know more about me and my work: Check out my [Portfolio](https://sites.google.com/view/seth-lanza-portfolio/home), Get in touch at Seth.Lanza@gmail.com, Connect on [Linkedin](https://www.linkedin.com/in/sethlanza/), Check my [Twitter](https://x.com/SethDataScience), or Check out my [Github](https://github.com/SethTheDataScientist?tab=repositories)')
