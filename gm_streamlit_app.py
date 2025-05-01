@@ -184,7 +184,7 @@ if main_menu == "GM Analysis":
 elif main_menu == 'Player Predictions':
     tab1, tab2 = st.tabs(['WR Model', 'RB Model'])
     with tab1:
-        st.subheader("WR Model")
+        st.subheader("WR Model v2.0")
 
         st.write("This tab is for a model that I created to predict NFL success based on college data for Wide Receivers. I will go into all the details about the model later, but let's jump to the good stuff with this year's predictions. (I don't filter to draftable prospects, this is anyone who played WR in 2024 with enough snaps to qualify.)")
         # Read in the upcoming draft table      
@@ -229,6 +229,11 @@ elif main_menu == 'Player Predictions':
                 st.markdown("**Combine/Athletic Metrics:**")
                 st.markdown("• **Combine metrics**: Various standard combine measurement metrics (height, weight, speed, etc.)")
 
+                st.markdown("**Scouting Metrics:**")
+                st.markdown("• **Athleticism_Sentiment**: Sentiment analysis of scouting report from Dane Brugler regarding any words regarding to athleticism (burst, dynamic, fluid, etc)")
+                st.markdown("• **Playmaking_Sentiment**: Sentiment analysis of scouting report from Dane Brugler regarding any words regarding to playmaking (catch, create, route, release, polish, etc)")
+                st.markdown("• **Off-Field_Sentiment**: Sentiment analysis of scouting report from Dane Brugler regarding any words regarding to off-field (leader, academic, captain, record, police, effort, etc)")
+
         st.session_state.wr_current_prospects = pd.read_csv("wr_data/current_year_wr.csv")
         st.subheader("Current Year Predictions")
         st.dataframe(st.session_state.wr_current_prospects, use_container_width=True)
@@ -239,9 +244,9 @@ elif main_menu == 'Player Predictions':
         plot_df = st.session_state.wr_current_prospects[st.session_state.wr_current_prospects.ID == st.session_state.specific_wr]
         row = plot_df.copy()
         # Parameters
-        mean = row['predicted_value'].item()
-        min_val =  row['min_value'].item()
-        max_val =  row['max_value'].item()
+        mean = row['predicted_label'].item()
+        min_val =  row['min_label'].item()
+        max_val =  row['max_label'].item()
         player = st.session_state.specific_wr
 
         distance_to_min = mean - min_val
@@ -291,7 +296,7 @@ elif main_menu == 'Player Predictions':
         st.session_state.wr_similarity = pd.read_csv("wr_data/similarity_list.csv")
         st.session_state.wr_similarity = st.session_state.wr_similarity[['ID.x', 'ID.y', 'similarity']]
         st.session_state.wr_similarity = st.session_state.wr_similarity[st.session_state.wr_similarity['ID.x'] == st.session_state.specific_wr]
-        st.write('This is a list of the top 5 most similar players in the NFL currently that I have college data for. This is the percentile of euclidian distance between the features of the model with higher weights towards playstyle and physical profile.')
+        st.write('This is a list of the top 5 most similar players in the NFL currently that I have college data for. This is the percentile of euclidian distance between the features of the model with higher weights towards playstyle, physical profile, and scouting report.')
         st.dataframe(st.session_state.wr_similarity, use_container_width=True)
 
         
@@ -300,11 +305,11 @@ elif main_menu == 'Player Predictions':
         st.subheader("Full Predictions")
         st.write('Here is the full table for all players in the dataset along with their NFL target variable to see the biggest misses in both directions. I will touch more on the specific misses below the table.')
         st.dataframe(st.session_state.wr_full_prospects, use_container_width=True)
-        st.write('The biggest underpredictions were Ladd McConkey, Amon-Ra St. Brown, Devin Funchess, Zay Flowers, and Xavier Legette. Also notable names in the top 10 are Brandon Aiyuk, Jordan Addison, and Terry McLaurin.')
-        st.write("It is worth noting that some of those players are rookies and might not maintain their current level of play. As they say, you're never wrong, just early. I will also say that a lot of the misses are for guys who are undersized as the model doesn't seem to like that a lot, and you can differentiate the underpredictions who became good by their max value being higher than the rest of them showing the upside was there at least. Admittedly, I'm not sure this model would ever pick up on a guy like St. Brown.")
+        st.write('The biggest underpredictions were Diontae Johnson, Jalen McMillan, Jahan Dotson, Quentin Johnston, Allen Lazard, Hunter Renfrow, Xavier Legette, Kayshon Boutte, Jalen Nailor, and Jamison Crowder')
+        st.write("It is worth noting that some of those players are rookies or 2nd year players and might not maintain their current level of play. As they say, you're never wrong, just early. I will also say that a lot of the misses are for guys who are not as athletic as the model doesn't seem to like that a lot, and you can differentiate the underpredictions who became good by their max value being higher than the rest of them showing the upside was there at least.")
 
-        st.write('On the flip side of the coin, biggest overpredictions of note were Andy Isabella, Skyy Moore, Danny Gray, Parris Campbell, and Dazz Newsome')
-        st.write("A lot of these player are also a bit undersized and for some player, most notably Parris Campbell, he falls into the Gadget filter that is when your ADOT is too low. I don't know why the model wasn't more punative with that filter as I initially definied it in my older models by scrolling until I found someone who I felt was at least alright in the NFL. They other misses were all decently early picks in the draft who showed some promise when you factor in some PFF features, but just never panned out in the pros.")
+        st.write('On the flip side of the coin, biggest overpredictions Vince Mayle, Antonio Gandy-Golden, Denzel Mims, Miles Boykin, James Proche, Anthony Miller, Andy Isabella, Antonio Gibson, Jordan Payton, and Rashad Greene.')
+        st.write("Some of these overpredicitons only had the one year of data in 2014 (the earliest I have PFF data for college) and might not have been as high if we saw more of their college career. Additionally, there are a few freaky athletes who just never figured it out in the league and a few undersized guys like Andy Isabella with good production. Ultimately, I don't think that I am missing as much on the overpredictions now that I have added in the scouting reports.")
 
 
         st.subheader("Model Process and Explanations")
@@ -316,8 +321,8 @@ elif main_menu == 'Player Predictions':
        
 
         st.subheader("Model Evaluation")
-        st.write("I trained an XGBoost model with the following hyperparameters [learning_rate: 0.1, max_depth: 7, num_estimators: 100, col_subsample: 0.8, subsample: 0.8].")
-        st.write("The model performed pretty well on the test set with the following metrics [R^2: 0.384, rmse: 0.177, mae: 0.150]. Below is the correlation plot between the predicted and actual target for the entire sample outside of the 2024 prospects.")
+        st.write("I trained an XGBoost model with the following hyperparameters [learning_rate: 0.05, max_depth: 5, num_estimators: 100, col_subsample: 1.0, subsample: 0.8].")
+        st.write("The model performed pretty well on the test set with the following metrics [R^2: 0.350, rmse: 0.182, mae: 0.140]. Below is the correlation plot between the predicted and actual target for the entire sample outside of the 2024 prospects.")
         st.image("wr_data/correlation_scatter_plot.png", caption="Scatter Plot of Predicted vs Actual with line of best fit.")
 
         st.write("I also created a SHAP analysis of the model with the beeswarm and bar plots showing the overall model features and their importance and the waterfall plot showing an example with the first row in the sample to show how the prediction is made.")
@@ -326,7 +331,7 @@ elif main_menu == 'Player Predictions':
         st.image("wr_data/shap_waterfall_plot.png", caption="Waterfall plot showing the model prediction for the first player in the sample")
 
 
-        st.session_state.wr_shap_column = st.selectbox("Select the specific feature to see how the SHAP values change across that feature", sorted(set(st.session_state.wr_full_prospects.columns)))
+        st.session_state.wr_shap_column = st.selectbox("Select the specific feature to see how the SHAP values change across that feature", sorted(set(st.session_state.wr_current_prospects.columns)))
         st.image(f"wr_data/shap_scatter_plot_{st.session_state.wr_shap_column}.png", caption="Shap Scatter plot showing the shap values for a specific feature and the more correlated secondary feature")
 
     with tab2:
